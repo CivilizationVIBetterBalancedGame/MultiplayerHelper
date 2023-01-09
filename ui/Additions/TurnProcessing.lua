@@ -249,18 +249,37 @@ function SmartTimer()
 	
 	if GameConfiguration.GetValue("CPL_SMARTTIMER") == 7 then
 
-	if currentTurn<10 then
-		timer = 15
+	if currentTurn<8 then
+		timer = 20
 	end
 
-	if currentTurn>=10 and currentTurn<=25 then
+	if currentTurn>=8 and currentTurn<=15 then
 		timer = 30
 	end
 
-	if currentTurn>25 then
-		timer = 30+2*(currentTurn-25)
+	if currentTurn>=16 and currentTurn<=23 then
+		timer = 40
+	end
+
+	if currentTurn >=24 and currentTurn<=31 then
+		timer = 50
+	end
+
+	if currentTurn >= 32 and currentTurn<= 39 then
+		timer = 60
+	end
+
+	if currentTurn>=40 and currentTurn<=68 then
+		timer = 60+2*(currentTurn-39)
 	end
 	
+	if currentTurn>=69 and currentTurn<=88 then
+		timer = 120
+	end
+
+	if currentTurn>=89 then
+		timer = 150
+	end
 	end
 
 	local turnSegment = Game.GetCurrentTurnSegment();
