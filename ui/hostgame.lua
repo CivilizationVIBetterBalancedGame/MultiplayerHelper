@@ -891,11 +891,11 @@ function Premier_League_Natural_Wonders()
 				"FEATURE_SALAR_DE_UYUNI",
 				"FEATURE_SRI_PADA",
 				"FEATURE_GIBRALTAR",
-				"FEATURE_VREDEFORT_DOME",
-				"FEATURE_LYSEFJORDEN",
-				"FEATURE_GIANTS_CAUSEWAY",
-				"FEATURE_BERMUDA_TRIANGLE",
-				"FEATURE_MATTERHORN"
+				"FEATURE_VREDEFORT_DOME"
+				--"FEATURE_LYSEFJORDEN",
+				--"FEATURE_GIANTS_CAUSEWAY",
+				--"FEATURE_BERMUDA_TRIANGLE",
+				--"FEATURE_MATTERHORN"
 				}
 	GameConfiguration.SetValue("EXCLUDE_NATURAL_WONDERS",default)
 end
@@ -1039,7 +1039,7 @@ function CheckPreset()
 			print("Applied 2vi2 Settings")
 			TwoVITwo_Natural_Wonders()
 			TwoVITwo_CS()
-			GameConfiguration.SetValue("CITY_STATE_COUNT",4)
+			--GameConfiguration.SetValue("CITY_STATE_COUNT",4)
 		end 
 		Network.BroadcastGameConfig();	
 		OnUpdateUI()
