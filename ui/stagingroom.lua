@@ -7088,14 +7088,14 @@ function BuildAdditionalContent()
 			modTitleStr =  "[COLOR_LIGHTBLUE]".. modTitleStr .. "[ENDCOLOR]";
 			b_spec_game = true
 		end		
-		if curMod.Id == "c88cba8b-8311-4d35-90c3-51a4a5d66540" then
+		if curMod.Id == "c88cba8b-8311-4d35-90c3-51a4a5d66550" then
 			modTitleStr =  "[COLOR_LIGHTBLUE]".. modTitleStr .. "[ENDCOLOR] (local: "..GetLocalModVersion(curMod.Id)..")";
 			b_bbs_game = true
 			s_bbs_id = curMod.Id
 		end	
-		if curMod.Id == "cb84074d-5007-4207-b662-c35a5f7be230" 
-			or curMod.Id == "cb84074d-5007-4207-b662-c35a5f7be217"
-			or curMod.Id == "cb84074d-5007-4207-b662-c35a5f7be240" then
+		if curMod.Id == "cb84075d-5007-4207-b662-c35a5f7be260" 
+			or curMod.Id == "cb84075d-5007-4207-b662-c35a5f7be250"
+			or curMod.Id == "cb84075d-5007-4207-b662-c35a5f7be254" then
 			modTitleStr =  "[COLOR_LIGHTBLUE]".. modTitleStr .. "[ENDCOLOR] (local: "..GetLocalModVersion(curMod.Id)..")";
 			b_bbg_game = true
 			s_bbg_id = curMod.Id
