@@ -408,7 +408,7 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="6" TargetGroup="Game" TargetId="GAME_TURN_LIMIT" TargetValue="TURNLIMIT_CUSTOM" Hash="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="6" TargetGroup="Game" TargetId="GAME_MAX_TURNS" TargetValue="130"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="6" TargetGroup="Game" TargetId="GAME_REALISM" TargetValue="0"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="6" TargetGroup="Map" TargetId="MAP_SCRIPT" TargetValue="InlandSea.lua" Hash="0"/>
+		<!--<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="6" TargetGroup="Map" TargetId="MAP_SCRIPT" TargetValue="InlandSea.lua" Hash="0"/>-->
 		<!--<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="6" TargetGroup="Game" TargetId="CITY_STATE_COUNT" TargetValue="4" Hash="0"/>-->
 		<!-- Disable smart timer => Disable turn syncro -->
 		<Row SourceGroup="Game" SourceId="CPL_SMARTTIMER" SourceValue="1" TargetGroup="Game" TargetId="CPL_SYNCTURN" TargetValue="0" />

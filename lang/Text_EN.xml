@@ -893,10 +893,10 @@
             <Text>If the game is part of an official tournament game, other mods can load/unload extra features.</Text>
         </Replace>
 		<Row Tag="TIMER_2VI2_NAME" Language="en_US">
-            <Text>2VI2</Text>
+            <Text>2VI2 HOT</Text>
         </Row>
         <Row Tag="TIMER_2VI2_DESC" Language="en_US">
-            <Text>15 seconds till turn 10, 30 seconds till turn 25. +2 seconds each turn after</Text>
+            <Text>Very fast timer that starts at 15 seconds and increases in jumps till 60 second by turn 40. Scales linearly after</Text>
         </Row>
         <Row Tag="MPH_PRESET_2VI2_NAME" Language="en_US">
             <Text>2VI2</Text>
