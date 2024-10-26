@@ -14,5 +14,7 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="BSM_TOURNAMENT" TargetValue="PPL Arena" Hash="0" />
 		<!-- PPL Battleground Default Name -->
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="BSM_TOURNAMENT" TargetValue="PPL Battleground" Hash="0" />
+		<!-- 2vi2 Default Name -->
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Game" TargetId="BSM_TOURNAMENT" TargetValue="2vi2 " Hash="0" />
 	</ConfigurationUpdates>
 </GameInfo>

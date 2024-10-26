@@ -759,35 +759,41 @@
 		<Replace Tag="MPH_OFFICIAL_GAME_DESC" Language="ko_KR">
 			<Text>게임이 공식 토너먼트 게임의 일부인 경우 다른 모드가 추가 기능을 로드하거나 제거할 수 있습니다.</Text>
 		</Replace>
-		<Row Tag="TIMER_2VI2_NAME" Language="ko_KR">
+		<Replace Tag="TIMER_2VI2_NAME" Language="ko_KR">
 			<Text>2VI2 HOT</Text>
-		</Row>
-		<Row Tag="TIMER_2VI2_DESC" Language="ko_KR">
+		</Replace>
+		<Replace Tag="TIMER_2VI2_DESC" Language="ko_KR">
 			<Text>15초에서 시작하여 턴 40에 이르기까지 점프로 60초까지 증가하는 매우 빠른 타이머입니다. 이후 선형으로 증가합니다.</Text>
-		</Row>
-		<Row Tag="MPH_PRESET_PPL_ARENA_NAME" Language="ko_KR">
+		</Replace>
+		<Replace Tag="MPH_PRESET_PPL_ARENA_NAME" Language="ko_KR">
 			<Text>PPL 아레나</Text>
-		</Row>
-		<Row Tag="MPH_PRESET_PPL_ARENA_DESC" Language="ko_KR">
+		</Replace>
+		<Replace Tag="MPH_PRESET_PPL_ARENA_DESC" Language="ko_KR">
 			<Text>PPL 1v1 한 대륙 판게아</Text>
-		</Row>
-		<Row Tag="MPH_PRESET_PPL_BATTLEGROUND_NAME" Language="ko_KR">
+		</Replace>
+		<Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_NAME" Language="ko_KR">
 			<Text>PPL 전장</Text>
-		</Row>
-		<Row Tag="MPH_PRESET_PPL_BATTLEGROUND_DESC" Language="ko_KR">
+		</Replace>
+		<Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_DESC" Language="ko_KR">
 			<Text>PPL 1v1 두 대륙 판게아</Text>
-		</Row>
-		<Row Tag="MPH_PRESET_CIVFRFFA_NAME" Language="ko_KR">
+		</Replace>
+		<Replace Tag="MPH_PRESET_CIVFRFFA_NAME" Language="ko_KR">
 			<Text>FFA CivFr</Text>
-		</Row>
-		<Row Tag="MPH_PRESET_CIVFRFFA_DESC" Language="ko_KR">
+		</Replace>
+		<Replace Tag="MPH_PRESET_CIVFRFFA_DESC" Language="ko_KR">
 			<Text>FFA를 위한 CivFR 전형적인 설정</Text>
-		</Row>
-		<Row Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_NAME" Language="ko_KR">
-            <Text>CLC 중국 리그컵</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_DESC" Language="ko_KR">
-            <Text>중국 리그컵의 전형적인 설정</Text>
-        </Row>
+		</Replace>
+		<Replace Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_NAME" Language="ko_KR">
+      <Text>CLC 중국 리그컵</Text>
+    </Replace>
+    <Replace Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_DESC" Language="ko_KR">
+      <Text>중국 리그컵의 전형적인 설정</Text>
+    </Replace>
+		<Replace Tag="MPH_PRESET_2vi2_NAME" Language="ko_KR">
+			<Text>2대2</Text>
+		</Replace>
+		<Replace Tag="MPH_PRESET_2vi2_DESC" Language="ko_KR">
+			<Text>CPL 2v2 리그 프리셋</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

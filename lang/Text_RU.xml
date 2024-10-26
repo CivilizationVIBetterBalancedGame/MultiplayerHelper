@@ -909,30 +909,36 @@
             <Text>Если игра является частью официального турнира, то другие моды могут загружать/отключать дополнительные возможности.</Text>
         </Replace>
 		
-        <Row Tag="MPH_PRESET_PPL_ARENA_NAME" Language="ru_RU">
+        <Replace Tag="MPH_PRESET_PPL_ARENA_NAME" Language="ru_RU">
             <Text>Арена PPL</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_PPL_ARENA_DESC" Language="ru_RU">
+        </Replace>
+        <Replace Tag="MPH_PRESET_PPL_ARENA_DESC" Language="ru_RU">
             <Text>PPL 1v1 Один Континент Пангея</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_PPL_BATTLEGROUND_NAME" Language="ru_RU">
+        </Replace>
+        <Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_NAME" Language="ru_RU">
             <Text>Поле Боя PPL</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_PPL_BATTLEGROUND_DESC" Language="ru_RU">
+        </Replace>
+        <Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_DESC" Language="ru_RU">
             <Text>PPL 1v1 Два Континента Пангея</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_CIVFRFFA_NAME" Language="ru_RU">
+        </Replace>
+        <Replace Tag="MPH_PRESET_CIVFRFFA_NAME" Language="ru_RU">
             <Text>FFA CivFr</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_CIVFRFFA_DESC" Language="ru_RU">
+        </Replace>
+        <Replace Tag="MPH_PRESET_CIVFRFFA_DESC" Language="ru_RU">
             <Text>Типичные настройки FFA игр в сообществе CivFR</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_NAME" Language="ru_RU">
+        </Replace>
+        <Replace Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_NAME" Language="ru_RU">
             <Text>CLC Кубок Китайской Лиги</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_DESC" Language="ru_RU">
+        </Replace>
+        <Replace Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_DESC" Language="ru_RU">
             <Text>Типичные настройки Кубка Китайской Лиги</Text>
-        </Row>
+        </Replace>
+        <Replace Tag="MPH_PRESET_2vi2_NAME" Language="ru_RU">
+            <Text>2на2</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_2vi2_DESC" Language="ru_RU">
+            <Text>Пресет для Лиги CPL 2v2</Text>
+        </Replace>
     </LocalizedText>
 </GameData>
 

@@ -903,32 +903,38 @@
         <Replace Tag="TIMER_2VI2_NAME" Language="de_DE">
             <Text>2VI2 HOT</Text>
         </Replace>
-		<Row Tag="TIMER_2VI2_DESC" Language="de_DE">
+		<Replace Tag="TIMER_2VI2_DESC" Language="de_DE">
             <Text>Sehr schneller Timer, der bei 15 Sekunden beginnt und bis zur 40. Runde in Sprüngen auf 60 Sekunden ansteigt. Skaliert danach linear.</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_PPL_ARENA_NAME" Language="de_DE">
+        </Replace>
+        <Replace Tag="MPH_PRESET_PPL_ARENA_NAME" Language="de_DE">
             <Text>PPL Arena</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_PPL_ARENA_DESC" Language="de_DE">
+        </Replace>
+        <Replace Tag="MPH_PRESET_PPL_ARENA_DESC" Language="de_DE">
             <Text>PPL 1v1 Ein Kontinent Pangea</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_PPL_BATTLEGROUND_NAME" Language="de_DE">
+        </Replace>
+        <Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_NAME" Language="de_DE">
             <Text>PPL Schlachtfeld</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_PPL_BATTLEGROUND_DESC" Language="de_DE">
+        </Replace>
+        <Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_DESC" Language="de_DE">
             <Text>PPL 1v1 Zwei Kontinent Pangea</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_CIVFRFFA_NAME" Language="de_DE">
+        </Replace>
+        <Replace Tag="MPH_PRESET_CIVFRFFA_NAME" Language="de_DE">
             <Text>FFA CivFr</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_CIVFRFFA_DESC" Language="de_DE">
+        </Replace>
+        <Replace Tag="MPH_PRESET_CIVFRFFA_DESC" Language="de_DE">
             <Text>Typische CivFR-Einstellungen für FFA.</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_NAME" Language="de_DE">
+        </Replace>
+        <Replace Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_NAME" Language="de_DE">
             <Text>CLC Chinesische Liga Cup</Text>
-        </Row>
-        <Row Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_DESC" Language="de_DE">
+        </Replace>
+        <Replace Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_DESC" Language="de_DE">
             <Text>Typische Einstellungen des Chinesischen Liga Cups</Text>
-        </Row>
+        </Replace>
+        <Replace Tag="MPH_PRESET_2vi2_NAME" Language="de_DE">
+            <Text>2v2</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_2vi2_DESC" Language="de_DE">
+            <Text>Voreinstellung für die CPL 2v2 Liga</Text>
+        </Replace>
     </LocalizedText>
 </GameData>

@@ -1054,6 +1054,13 @@ function CheckPreset()
 			PPLBattleground_Natural_Wonders()
 			PPLBattleground_CS()
 			GameConfiguration.SetValue("CITY_STATE_COUNT",6)
+		end
+		-- 2vi2 
+		if currentPreset == 10 then
+			print("Applied 2vi2 Settings")
+			Premier_League_Natural_Wonders()
+			OneVOneRR_CS()
+			GameConfiguration.SetValue("CITY_STATE_COUNT",6)
 		end			
 		Network.BroadcastGameConfig();	
 		OnUpdateUI()
