@@ -830,7 +830,6 @@ function Default_Natural_Wonders()
 				"FEATURE_SINAI",
 				"FEATURE_SALAR_DE_UYUNI",
 				"FEATURE_WULINGYUAN",	
-				"FEATURE_SALAR_DE_UYUNI",
 				"FEATURE_SRI_PADA",
 				"FEATURE_GIBRALTAR",					
 				"FEATURE_VREDEFORT_DOME",
@@ -875,7 +874,7 @@ end
 function CWC_Natural_Wonders()
 	local default = {}
 	default = {
-                "FEATURE_BARRINGER_CRATER",
+        "FEATURE_BARRINGER_CRATER",
 				"FEATURE_BIOLUMINESCENT_BAY",
 				"FEATURE_CERRO_DE_POTOSI",
 				"FEATURE_DALLOL",
@@ -892,7 +891,6 @@ function CWC_Natural_Wonders()
 				"FEATURE_SINAI",
 				"FEATURE_SALAR_DE_UYUNI",
 				"FEATURE_WULINGYUAN",
-				"FEATURE_SALAR_DE_UYUNI",
 				"FEATURE_SRI_PADA",
 				"FEATURE_GIBRALTAR",
 				"FEATURE_VREDEFORT_DOME",
@@ -902,7 +900,7 @@ function CWC_Natural_Wonders()
 	GameConfiguration.SetValue("EXCLUDE_NATURAL_WONDERS",default)
 end
 
-function PPLArena_Natural_Wonders()
+function PPLGamemode_Natural_Wonders()
 	local default = {}
 	default = {
         "FEATURE_BARRINGER_CRATER",
@@ -922,7 +920,6 @@ function PPLArena_Natural_Wonders()
 				"FEATURE_SINAI",
 				"FEATURE_SALAR_DE_UYUNI",
 				"FEATURE_WULINGYUAN",
-				"FEATURE_SALAR_DE_UYUNI",
 				"FEATURE_SRI_PADA",
 				"FEATURE_GIBRALTAR",
 				"FEATURE_VREDEFORT_DOME",
@@ -933,31 +930,11 @@ function PPLArena_Natural_Wonders()
 	GameConfiguration.SetValue("EXCLUDE_NATURAL_WONDERS",default)
 end
 
-function PPLBattleground_Natural_Wonders()
+function TwoVTwoCPL_Natural_Wonders()
 	local default = {}
 	default = {
-        "FEATURE_BARRINGER_CRATER",
-				"FEATURE_BIOLUMINESCENT_BAY",
-				"FEATURE_CERRO_DE_POTOSI",
-				"FEATURE_DALLOL",
-				"FEATURE_GRAND_MESA",
-				"FEATURE_KRAKATOA",
-				"FEATURE_LAKE_VICTORIA",
-				"FEATURE_LENCOIS_MARANHENSES",
-				"FEATURE_OUNIANGA",
-				"FEATURE_MOSI_OA_TUNYA",
-				"FEATURE_MOTLATSE_CANYON",
-				"FEATURE_KAILASH",
 				"FEATURE_NAMIB",
-				"FEATURE_OLD_FAITHFUL",
-				"FEATURE_SINAI",
-				"FEATURE_SALAR_DE_UYUNI",
-				"FEATURE_WULINGYUAN",
-				"FEATURE_SALAR_DE_UYUNI",
-				"FEATURE_SRI_PADA",
-				"FEATURE_GIBRALTAR",
-				"FEATURE_VREDEFORT_DOME",
-				"FEATURE_LYSEFJORDEN",
+				"FEATURE_ZHANGYE_DANXIA",
 				"FEATURE_MATTERHORN",
 				"FEATURE_BERMUDA_TRIANGLE"
 				}
@@ -974,7 +951,7 @@ function OneVOneRR_CS()
 	GameConfiguration.SetValue("EXCLUDE_CITY_STATES",default)
 end
 
-function PPLArena_CS()
+function PPLGamemode_CS()
 	local default = {}
 	default ={
 				"CIVILIZATION_KUMASI", 
@@ -984,12 +961,22 @@ function PPLArena_CS()
 	GameConfiguration.SetValue("EXCLUDE_CITY_STATES",default)
 end
 
-function PPLBattleground_CS()
+function TwoVTwoCPL_CS()
 	local default = {}
 	default ={
 				"CIVILIZATION_KUMASI", 
 				"CIVILIZATION_JOHANNESBUR",
-				"CIVILIZATION_ZANZIBAR"		
+				"CIVILIZATION_ZANZIBAR",
+				"CIVILIZATION_LAHORE",
+				"CIVILIZATION_AYUTTHAYA",
+				"CIVILIZATION_MITLA",
+				"CIVILIZATION_NALANDA",
+				"CIVILIZATION_HATTUSA",
+				"CIVILIZATION_TARUGA",
+				"CIVILIZATION_BOLOGNA",
+				"CIVILIZATION_FEZ",
+				"CIVILIZATION_GENEVA",
+				"CIVILIZATION_ANSHAN"
 				}
 	GameConfiguration.SetValue("EXCLUDE_CITY_STATES",default)
 end
@@ -1044,22 +1031,22 @@ function CheckPreset()
 		-- PPL Arena
 		if currentPreset == 8 then
 			print("Applied PPL Arena Settings")
-			PPLArena_Natural_Wonders()
-			PPLArena_CS()
+			PPLGamemode_Natural_Wonders()
+			PPLGamemode_CS()
 			GameConfiguration.SetValue("CITY_STATE_COUNT",3)
 		end
 		-- PPL Battleground
 		if currentPreset == 9 then
 			print("Applied PPL Battleground Settings")
-			PPLBattleground_Natural_Wonders()
-			PPLBattleground_CS()
+			PPLGamemode_Natural_Wonders()
+			PPLGamemode_CS()
 			GameConfiguration.SetValue("CITY_STATE_COUNT",6)
 		end
-		-- 2vi2 
+		-- 2vi2CPL 
 		if currentPreset == 10 then
 			print("Applied 2vi2 Settings")
-			Premier_League_Natural_Wonders()
-			OneVOneRR_CS()
+			TwoVTwoCPL_Natural_Wonders()
+			TwoVTwoCPLCPL_CS()
 			GameConfiguration.SetValue("CITY_STATE_COUNT",6)
 		end			
 		Network.BroadcastGameConfig();	
