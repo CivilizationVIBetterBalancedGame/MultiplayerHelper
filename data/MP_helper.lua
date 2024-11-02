@@ -91,7 +91,7 @@
 --	NEW VARIABLES
 -- ===========================================================================
 ExposedMembers.LuaEvents = LuaEvents
-local g_version = "v1.3.6"
+local g_version = "v1.7.0"
 local Drop_Data = {};
 local b_debug = false
 

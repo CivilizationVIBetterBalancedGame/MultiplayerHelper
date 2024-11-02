@@ -4,11 +4,12 @@
   <Properties>
     <Name>LOC_MPH_TITLE</Name>
     <Description>LOC_MPH_DESCRIPTION</Description>
-	<Created>1</Created>
-	<Version>170</Version>
+			<Created>1</Created>
+			<Version>170</Version>
     <Teaser>LOC_MPH_TEASER</Teaser>
     <Authors>Cisco, FlashyFeeds, D. / Jack The Narrator</Authors>
-	<SpecialThanks>Civfanatics.com, CPL, Gedemon, the [NnJa] crew, coloo, iElden</SpecialThanks>
+			<SpecialThanks>Civfanatics.com, CPL, Gedemon, the [NnJa] crew, coloo, iElden</SpecialThanks>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
   
 	<LocalizedText>

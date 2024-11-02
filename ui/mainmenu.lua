@@ -1530,7 +1530,7 @@ function Initialize()
 	BuildAllMenus();
 	UpdateMotD();
 	RealizeLogoAndMovie();
-	g_version = " - [COLOR_LIGHTBLUE]MPH / "..GetLocalModVersion("619ac86e-d99d-4bf3-b8f0-8c5b8c402176").."[ENDCOLOR]"
+	g_version = " - [COLOR_LIGHTBLUE]MPH / "..GetLocalModVersion("619ac86e-d99d-4bf3-b8f0-8c5b8c402567").."[ENDCOLOR]"
 	Controls.VersionLabel:SetText( tostring(UI.GetAppVersion()..g_version) );
 end
 Initialize();

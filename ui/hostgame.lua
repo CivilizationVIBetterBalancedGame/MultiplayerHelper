@@ -1046,7 +1046,7 @@ function CheckPreset()
 		if currentPreset == 10 then
 			print("Applied 2vi2 Settings")
 			TwoVTwoCPL_Natural_Wonders()
-			TwoVTwoCPLCPL_CS()
+			TwoVTwoCPL_CS()
 			GameConfiguration.SetValue("CITY_STATE_COUNT",6)
 		end			
 		Network.BroadcastGameConfig();	

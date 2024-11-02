@@ -1566,8 +1566,7 @@ function Refresh()
 		end				
 		if curMod.Id == "619ac86e-d99d-4bf3-b8f0-8c5b8c402567" then
 			GameConfiguration.SetValue("MOD_MPH_ID",true)
-		end			
-														 	 
+		end															 	 
 	end	
 	
 	-- Define Settings
@@ -7459,7 +7458,7 @@ function Initialize()
 
 	Controls.TitleLabel:SetText(Locale.ToUpper(Locale.Lookup("LOC_MULTIPLAYER_STAGING_ROOM")));
 	
-	g_version = GetLocalModVersion("619ac86e-d99d-4bf3-b8f0-8c5b8c402176")
+	g_version = GetLocalModVersion("619ac86e-d99d-4bf3-b8f0-8c5b8c402567")
 		
 	ResizeButtonToText(Controls.BackButton);
 	ResizeButtonToText(Controls.EndGameButton);
