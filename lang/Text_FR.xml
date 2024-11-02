@@ -931,5 +931,11 @@
         <Replace Tag="MPH_PRESET_2vi2_DESC" Language="fr_FR">
             <Text>Préréglage pour la Ligue CPL 2v2</Text>
         </Replace>
+        <Replace Tag="MPH_PRESET_CPL_GOAT_DESC" Language="fr_FR">
+            <Text>Préréglage du Tournoi GOAT de la Ligue CivPlayer</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_CPL_GOAT_NAME" Language="fr_FR">
+            <Text>CPL G.O.A.T</Text>
+        </Replace>
     </LocalizedText>
 </GameData>

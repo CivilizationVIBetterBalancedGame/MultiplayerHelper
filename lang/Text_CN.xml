@@ -934,5 +934,11 @@
         <Replace Tag="MPH_PRESET_2vi2_DESC" Language="zh_Hans_CN">
             <Text>CPL 2v2 联赛的预设</Text>
         </Replace>
+        <Replace Tag="MPH_PRESET_CPL_GOAT_DESC" Language="zh_CN">
+            <Text>文明玩家联盟 GOAT 锦标赛预设</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_CPL_GOAT_NAME" Language="zh_CN">
+            <Text>CPL G.O.A.T</Text>
+        </Replace>
     </LocalizedText>
 </GameData>

@@ -937,5 +937,11 @@
         <Replace Tag= "MPH_PRESET_2vi2_DESC" Language="ja_JP">
             <Text>CPL 2v2リーグ用プリセット</Text>
         </Replace>
+        <Replace Tag="MPH_PRESET_CPL_GOAT_DESC" Language="ja_JP">
+            <Text>CivPlayer リーグ GOAT トーナメントプリセット</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_CPL_GOAT_NAME" Language="ja_JP">
+            <Text>CPL G.O.A.T</Text>
+        </Replace>
     </LocalizedText>
 </GameData>

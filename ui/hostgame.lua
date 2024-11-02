@@ -981,6 +981,21 @@ function TwoVTwoCPL_CS()
 	GameConfiguration.SetValue("EXCLUDE_CITY_STATES",default)
 end
 
+function GOAT_CS()
+	local default = {}
+	default ={
+		"CIVILIZATION_PALENQUE",
+		"CIVILIZATION_NALANDA",
+		"CIVILIZATION_HATTUSA",
+		"CIVILIZATION_TARUGA",
+		"CIVILIZATION_BOLOGNA",
+		"CIVILIZATION_FEZ",
+		"CIVILIZATION_GENEVA",
+		"CIVILIZATION_BABYLON"
+	}
+	GameConfiguration.SetValue("EXCLUDE_CITY_STATES",default)
+end
+
 function CheckPreset()
 	local currentPreset = GameConfiguration.GetValue("MPH_PRESET")
 	print("CheckPreset()",currentPreset,m_Preset,isInSession)
@@ -1048,6 +1063,12 @@ function CheckPreset()
 			TwoVTwoCPL_Natural_Wonders()
 			TwoVTwoCPL_CS()
 			GameConfiguration.SetValue("CITY_STATE_COUNT",6)
+		end
+		-- GOAT
+		if currentPreset == 11 then
+			print("Applied GOAT Settings")
+			GOAT_CS()
+			OneVOneRR_Natural_Wonders()
 		end			
 		Network.BroadcastGameConfig();	
 		OnUpdateUI()

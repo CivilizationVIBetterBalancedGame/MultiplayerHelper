@@ -936,5 +936,11 @@
         <Replace Tag="MPH_PRESET_2vi2_DESC" Language="de_DE">
             <Text>Voreinstellung für die CPL 2v2 Liga</Text>
         </Replace>
+        <Replace Tag="MPH_PRESET_CPL_GOAT_DESC" Language="de_DE">
+            <Text>CivPlayer Liga GOAT Turnier-Voreinstellung</Text>
+        </Replace>
+        <Replace Tag="MPH_PRESET_CPL_GOAT_NAME" Language="de_DE">
+            <Text>CPL G.O.A.T</Text>
+        </Replace>
     </LocalizedText>
 </GameData>

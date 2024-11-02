@@ -795,5 +795,11 @@
 		<Replace Tag="MPH_PRESET_2vi2_DESC" Language="ko_KR">
 			<Text>CPL 2v2 리그 프리셋</Text>
 		</Replace>
+		<Replace Tag="MPH_PRESET_CPL_GOAT_DESC" Language="ko_KR">
+				<Text>CivPlayer 리그 GOAT 토너먼트 프리셋</Text>
+		</Replace>
+		<Replace Tag="MPH_PRESET_CPL_GOAT_NAME" Language="ko_KR">
+				<Text>CPL G.O.A.T</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
