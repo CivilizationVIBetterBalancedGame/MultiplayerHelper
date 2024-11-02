@@ -7086,7 +7086,7 @@ function BuildAdditionalContent()
 			isCivPlayerName = true
 			modTitleStr =  "[COLOR_RED]".. modTitleStr .. "[ENDCOLOR]";
 		end
-		if curMod.Id == "619ac86e-d99d-4bf3-b8f0-8c5b8c402176" then
+		if curMod.Id == "619ac86e-d99d-4bf3-b8f0-8c5b8c402567" then
 			modTitleStr =  "[COLOR_LIGHTBLUE]".. modTitleStr .. "[ENDCOLOR] (local: "..GetLocalModVersion(curMod.Id)..")";
 			b_mph_game = true
 		end

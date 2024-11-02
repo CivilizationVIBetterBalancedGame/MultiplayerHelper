@@ -3,7 +3,7 @@
 		<!--  Signature -->
 		<Row ParameterId="MPH_MOD_ID" Name="MPH" Description="MPH" Domain="bool" DefaultValue="1" ConfigurationGroup="Game" ConfigurationId="MOD_MPH_ID" GroupId="AdvancedOptions" SortIndex="0" Visible="0"  />
 		<Row ParameterId="BBG_MOD_ID" Name="BBG" Description="BBG" Domain="bool" DefaultValue="1" ConfigurationGroup="Game" ConfigurationId="MOD_BBG_ID" GroupId="AdvancedOptions" SortIndex="0" Visible="0"  />
-		<Row ParameterId="BBS_MOD_ID" Name="BBS" Description="BBS" Domain="bool" DefaultValue="1" ConfigurationGroup="Game" ConfigurationId="MOD_BBS_ID" GroupId="AdvancedOptions" SortIndex="0" Visible="0"  />
+		<Row ParameterId="BBS_MOD_ID" Name="BBM" Description="BBS" Domain="bool" DefaultValue="1" ConfigurationGroup="Game" ConfigurationId="MOD_BBS_ID" GroupId="AdvancedOptions" SortIndex="0" Visible="0"  />
 		<Row ParameterId="BSM_MOD_ID" Name="BSM" Description="BSM" Domain="bool" DefaultValue="1" ConfigurationGroup="Game" ConfigurationId="MOD_BSM_ID" GroupId="AdvancedOptions" SortIndex="0" Visible="0"  />
 	
 		<!--  CPL Settings -->
