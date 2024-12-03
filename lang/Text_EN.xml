@@ -152,7 +152,7 @@
         <Replace Tag="CPL_TRADING_ALLIED_NAME" language="en_US">
             <Text>Allies Only</Text>
         </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_DESC" language="en_US">
+        <Replace Tag="CPL_TRADING_ALLIED_DESC" language="en_US">
             <Text>This type of trading would be solely permitted in-game between allies.</Text>
         </Replace>
 

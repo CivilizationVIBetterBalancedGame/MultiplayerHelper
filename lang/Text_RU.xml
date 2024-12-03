@@ -151,7 +151,7 @@
         <Replace Tag="CPL_TRADING_ALLIED_NAME" language="ru_RU">
             <Text>Только между союзниками</Text>
         </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_DESC" language="ru_RU">
+        <Replace Tag="CPL_TRADING_ALLIED_DESC" language="ru_RU">
             <Text>Этот тип торговли разрешен только между союзниками</Text>
         </Replace>
 

@@ -152,7 +152,7 @@
         <Replace Tag="CPL_TRADING_ALLIED_NAME" language="zh_Hans_CN">
             <Text>仅盟友</Text>
         </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_DESC" language="zh_Hans_CN">
+        <Replace Tag="CPL_TRADING_ALLIED_DESC" language="zh_Hans_CN">
             <Text>仅允许这种交易在盟友间进行。</Text>
         </Replace>
 
