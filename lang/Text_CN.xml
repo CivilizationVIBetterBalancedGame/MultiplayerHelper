@@ -251,11 +251,11 @@
         <Replace Tag="TIMER_LEGE_DESC" language="zh_Hans_CN">
             <Text>来自Lege的压力：前15回合时间为15秒，15-70回合为45秒，之后为75秒。</Text>
         </Replace>
-        <Replace Tag="TIMER_S1A1_NAME" language="zh_Hans_CN">
-            <Text>经典</Text>
+        <Replace Tag="TIMER_CIVLAN_NAME" language="zh_Hans_CN">
+            <Text>CivLan 2025</Text>
         </Replace>
-        <Replace Tag="TIMER_S1A1_DESC" language="zh_Hans_CN">
-            <Text>复制于S1aL的动态回合时间模组，适合休闲游玩。</Text>
+        <Replace Tag="TIMER_CIVLAN_DESC" language="zh_Hans_CN">
+            <Text>CivLan 2025 的动态计时器</Text>
         </Replace>
         <Replace Tag="TIMER_SEPHI_NAME" language="zh_Hans_CN">
             <Text>适中</Text>

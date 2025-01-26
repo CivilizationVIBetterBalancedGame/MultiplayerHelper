@@ -138,7 +138,7 @@
 		<Row Domain="TimerLimits" Value="5" Name="TIMER_CASUAL_NAME" Description="TIMER_CASUAL_DESC" SortIndex="2"/>
 		<Row Domain="TimerLimits" Value="1" Name="TIMER_NONE_NAME" Description="TIMER_NONE_DESC" SortIndex="1"/>
 		<Row Domain="TimerLimits" Value="2" Name="TIMER_LEGE_NAME" Description="TIMER_LEGE_DESC" SortIndex="6"/>
-		<Row Domain="TimerLimits" Value="3" Name="TIMER_S1A1_NAME" Description="TIMER_S1A1_DESC" SortIndex="3"/>
+		<Row Domain="TimerLimits" Value="3" Name="TIMER_CIVLAN_NAME" Description="TIMER_CIVLAN_DESC" SortIndex="3"/>
 		<Row Domain="TimerLimits" Value="4" Name="TIMER_SEPHI_NAME" Description="TIMER_SEPHI_DESC" SortIndex="4"/>
 		<Row Domain="TimerLimits" Value="6" Name="TIMER_PHYPHY_NAME" Description="TIMER_PHYPHY_DESC" SortIndex="7"/>
 		<Row Domain="TimerLimits" Value="7" Name="TIMER_2VI2_NAME" Description="TIMER_2VI2_DESC" SortIndex="8"/>

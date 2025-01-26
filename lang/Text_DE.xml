@@ -250,11 +250,11 @@
         <Replace Tag="TIMER_LEGE_DESC" Language="de_DE">
             <Text>Lege's Druck: Timer mit 15 Sekunden für die ersten 15 Züge, 45 Sekunden bis Zug 70 und 75 Sekunden danach.</Text>
         </Replace>
-        <Replace Tag="TIMER_S1A1_NAME" Language="de_DE">
-            <Text>Klassisch</Text>
+        <Replace Tag="TIMER_CIVLAN_NAME" Language="de_DE">
+            <Text>CivLan 2025</Text>
         </Replace>
-        <Replace Tag="TIMER_S1A1_DESC" Language="de_DE">
-            <Text>Duplikat des dynamischen Timers von S1aL, gut für gelegentliches Spielen</Text>
+        <Replace Tag="TIMER_CIVLAN_DESC" Language="de_DE">
+            <Text>Dynamischer Timer für die CivLan 2025.</Text>
         </Replace>
         <Replace Tag="TIMER_SEPHI_NAME" Language="de_DE">
             <Text>Moderat</Text>

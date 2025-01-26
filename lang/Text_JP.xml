@@ -251,11 +251,11 @@
         <Replace Tag="TIMER_LEGE_DESC" language="ja_JP">
             <Text>Lege's pressure: timer with 15 secs for the first 15 turns, 45 until turn 70 and 75 thereafter.</Text>
         </Replace>
-        <Replace Tag="TIMER_S1A1_NAME" language="ja_JP">
-            <Text>古典的　Classic</Text>
+        <Replace Tag="TIMER_CIVLAN_NAME" language="ja_JP">
+            <Text>CivLan 2025</Text>
         </Replace>
-        <Replace Tag="TIMER_S1A1_DESC" language="ja_JP">
-            <Text>Duplicate of S1aL's dynamic timer, good for casual play</Text>
+        <Replace Tag="TIMER_CIVLAN_DESC" language="ja_JP">
+            <Text>CivLan 2025 の動的タイマー</Text>
         </Replace>
         <Replace Tag="TIMER_SEPHI_NAME" language="ja_JP">
             <Text>普通　Moderate</Text>

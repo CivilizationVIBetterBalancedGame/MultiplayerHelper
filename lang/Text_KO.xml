@@ -237,12 +237,12 @@
 		<Replace Tag="TIMER_LEGE_DESC" language="ko_KR">
 			<Text>15턴 동안 15초의 타이머, 70턴까지 45초, 그 후로 75초</Text>
 		</Replace>
-		<Replace Tag="TIMER_S1A1_NAME" language="ko_KR">
-			<Text>클래식</Text>
+		<Replace Tag="TIMER_CIVLAN_NAME" language="ko_KR">
+			<Text>CivLan 2025</Text>
 		</Replace>
-		<Replace Tag="TIMER_S1A1_DESC" language="ko_KR">
-			<Text>S1aL의 동적 타이머의 복제, 캐주얼 플레이에 좋음</Text>
-		</Replace>
+		<Replace Tag="TIMER_CIVLAN_DESC" language="ko_KR">
+			<Text>CivLan 2025를 위한 동적 타이머.</Text>
+		</Replace>CIVLAN
 		<Replace Tag="TIMER_SEPHI_NAME" language="ko_KR">
 			<Text>적당한</Text>
 		</Replace>
