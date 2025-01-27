@@ -290,6 +290,7 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="2" TargetGroup="Game" TargetId="NO_TRADING_FAVOR" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="2" TargetGroup="Game" TargetId="NO_TRADING_CITIES" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="2" TargetGroup="Game" TargetId="ALLIANCE_MILITARY" TargetValue="0"/>
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="2" TargetGroup="Game" TargetId="GAME_NO_BARBARIANS" TargetValue="1" Hash="0"/>
 		
 		<!-- CivFR Squadron -->
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="MPH_OFFICIAL_GAME" TargetValue="1" />
