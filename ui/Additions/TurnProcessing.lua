@@ -185,17 +185,17 @@ function SmartTimer()
 	end
 
 	if GameConfiguration.GetValue("CPL_SMARTTIMER") == 3 then
+		timer = 25 + avg_cities * 2 + avg_units * 1  + g_timeshift
 	
-	timer = 30 + avg_cities * 2 + avg_units * 0.5  + g_timeshift
-	
+
 	if currentTurn > 5 and currentTurn < 11 then
 		timer = timer + 5
 	end	
 	if currentTurn > 10 and currentTurn < 21 then
-		timer = timer + 15
+		timer = timer + 10
 	end	
 	if currentTurn > 20 and currentTurn < 31 then
-		timer = timer + 35
+		timer = timer + 30
 	end
 	if currentTurn > 30 and currentTurn < 51 then
 		timer = timer + 40
@@ -210,7 +210,7 @@ function SmartTimer()
 		timer = timer + 55
 	end
 	end
-	
+
 	if GameConfiguration.GetValue("CPL_SMARTTIMER") == 5 then
 
 
