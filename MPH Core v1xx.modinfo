@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="619ac86e-d99d-4bf3-b8f0-8c5b8c402567" version="172">
+<Mod id="619ac86e-d99d-4bf3-b8f0-8c5b8c402567" version="173">
 
   <Properties>
     <Name>LOC_MPH_TITLE</Name>
     <Description>LOC_MPH_DESCRIPTION</Description>
 			<Created>1</Created>
-			<Version>172</Version>
+			<Version>173</Version>
     <Teaser>LOC_MPH_TEASER</Teaser>
     <Authors>Cisco, FlashyFeeds, D. / Jack The Narrator</Authors>
 			<SpecialThanks>Civfanatics.com, CPL, Gedemon, the [NnJa] crew, coloo, iElden</SpecialThanks>
@@ -14,14 +14,14 @@
   
 	<LocalizedText>
 		<Text id="LOC_MPH_TITLE">
-			<en_US>Multiplayer Helper 1.7.2</en_US>
-			<fr_FR>Assistant multijoueur 1.7.2</fr_FR>
-			<zh_Hans_CN>MPH 多人游戏助手 1.7.2</zh_Hans_CN>
-			<ru_RU>Мультиплеерный помощник 1.7.2</ru_RU>
-			<pt_BR>Auxiliar Multiplayer 1.7.2</pt_BR>
-			<ko_KR>멀티플레이어 도우미 1.7.2</ko_KR>
-			<ja_JP>マルチプレイヤー ヘルパー 1.7.2</ja_JP>
-			<de_DE>Multiplayer Helper 1.7.2</de_DE>
+			<en_US>Multiplayer Helper 1.7.3</en_US>
+			<fr_FR>Assistant multijoueur 1.7.3</fr_FR>
+			<zh_Hans_CN>MPH 多人游戏助手 1.7.3</zh_Hans_CN>
+			<ru_RU>Мультиплеерный помощник 1.7.3</ru_RU>
+			<pt_BR>Auxiliar Multiplayer 1.7.3</pt_BR>
+			<ko_KR>멀티플레이어 도우미 1.7.3</ko_KR>
+			<ja_JP>マルチプレイヤー ヘルパー 1.7.3</ja_JP>
+			<de_DE>Multiplayer Helper 1.7.3</de_DE>
 		</Text>
 		<Text id="LOC_MPH_TEASER">
 						<en_US>Esport oriented mod to help tournament and game statibility.</en_US>

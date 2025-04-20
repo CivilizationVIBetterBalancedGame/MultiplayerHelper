@@ -94,7 +94,7 @@ function SmartTimer()
 	-- 0: Competitive
 	-- 1: None
 	-- 2: Lege
-	-- 3: CivLan
+	-- 3: CWC 2025
 	-- 4: Sephis
 	-- 5: Casual
 	-- 6: Phyphy
@@ -185,20 +185,20 @@ function SmartTimer()
 	end
 
 	if GameConfiguration.GetValue("CPL_SMARTTIMER") == 3 then
-		timer = 25 + avg_cities * 2 + avg_units * 1  + g_timeshift
+		timer = 30 + avg_cities * 4 + avg_units * 1  + g_timeshift
 	
 
 	if currentTurn > 5 and currentTurn < 11 then
-		timer = timer + 5
+		timer = timer + 3
 	end	
 	if currentTurn > 10 and currentTurn < 21 then
-		timer = timer + 10
+		timer = timer + 11
 	end	
 	if currentTurn > 20 and currentTurn < 31 then
 		timer = timer + 30
 	end
 	if currentTurn > 30 and currentTurn < 51 then
-		timer = timer + 40
+		timer = timer + 35
 	end
 	if currentTurn > 50 and currentTurn < 76 then
 		timer = timer + 45
@@ -209,6 +209,7 @@ function SmartTimer()
 	if currentTurn > 100 then
 		timer = timer + 55
 	end
+
 	end
 
 	if GameConfiguration.GetValue("CPL_SMARTTIMER") == 5 then

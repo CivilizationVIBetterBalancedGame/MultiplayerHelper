@@ -242,7 +242,7 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Map" TargetId="world_age" TargetValue="1" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Map" TargetId="MAP_SIZE" TargetValue="MAPSIZE_STANDARD" Hash="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Game" TargetId="GAME_NO_BARBARIANS" TargetValue="1" Hash="0"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Game" TargetId="CPL_SMARTTIMER" TargetValue="0" Hash="0"/>
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Game" TargetId="CPL_SMARTTIMER" TargetValue="-1" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Game" TargetId="NO_TRADING_CITIES" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Map" TargetId="resources" TargetValue="2"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Map" TargetId="BBSStratRes" TargetValue="3"/>
@@ -455,7 +455,7 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="GAME_NO_BARBARIANS" TargetValue="1" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Map" TargetId="temperature" TargetValue="2"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Map" TargetId="sea_level" TargetValue="2"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="GAME_REALISM" TargetValue="1"/>
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="GAME_REALISM" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="DIPLOMATIC_DEAL" TargetValue="0" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="NO_FRIENDSHIP" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="NO_TRADING_FAVOR" TargetValue="0" />
@@ -472,7 +472,7 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="ALLIANCE_RESEARCH" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="ALLIANCE_CULTURAL" TargetValue="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="GAME_TURN_LIMIT" TargetValue="TURNLIMIT_CUSTOM" Hash="1"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="GAME_MAX_TURNS" TargetValue="127"/>
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="GAME_MAX_TURNS" TargetValue="137"/>
 		<Row SourceGroup="Game" SourceId="CPL_SMARTTIMER" SourceValue="8" TargetGroup="Game" TargetId="CPL_SYNCTURN" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="CPL_BAN_FORMAT" TargetValue="0" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="CPL_NO_PINS" TargetValue="0"/>
@@ -492,7 +492,7 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="GAME_NO_BARBARIANS" TargetValue="1" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Map" TargetId="temperature" TargetValue="2"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Map" TargetId="sea_level" TargetValue="2"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="GAME_REALISM" TargetValue="1"/>
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="GAME_REALISM" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="DIPLOMATIC_DEAL" TargetValue="0" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="NO_FRIENDSHIP" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="NO_TRADING_FAVOR" TargetValue="0" />
@@ -509,7 +509,7 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="ALLIANCE_RESEARCH" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="ALLIANCE_CULTURAL" TargetValue="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="GAME_TURN_LIMIT" TargetValue="TURNLIMIT_CUSTOM" Hash="1"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="GAME_MAX_TURNS" TargetValue="127"/>
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="GAME_MAX_TURNS" TargetValue="137"/>
 		<Row SourceGroup="Game" SourceId="CPL_SMARTTIMER" SourceValue="9" TargetGroup="Game" TargetId="CPL_SYNCTURN" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="CPL_BAN_FORMAT" TargetValue="0" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="CPL_NO_PINS" TargetValue="0"/>
