@@ -251,10 +251,10 @@
             <Text>Давление Скаброуса: первые 15 ходов - 15 секунд, до 70 хода - 45 секунд и 75 секунд после этого.</Text>
         </Replace>
         <Replace Tag="TIMER_CIVLAN_NAME" language="ru_RU">
-            <Text>CivLan 2025</Text>
+            <Text>CivLan / CWC 2025</Text>
         </Replace>
         <Replace Tag="TIMER_CIVLAN_DESC" language="ru_RU">
-            <Text>Динамический таймер для CivLan 2025.</Text>
+            <Text>Динамический таймер для CWC + CivLan 2025.</Text>
         </Replace>
         <Replace Tag="TIMER_SEPHI_NAME" language="ru_RU">
             <Text>Умеренный</Text>

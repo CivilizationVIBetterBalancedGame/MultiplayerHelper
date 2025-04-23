@@ -255,7 +255,7 @@
             <Text>CivLan / CWC 2025</Text>
         </Replace>
         <Replace Tag="TIMER_CIVLAN_DESC" language="fr_FR">
-            <Text>Chronomètre dynamique pour la CivLan + CWC 2025.</Text>
+            <Text>Minuteur dynamique pour CWC + CivLan 2025.</Text>
         </Replace>
         <Replace Tag="TIMER_SEPHI_NAME" language="fr_FR">
             <Text>Modéré</Text>

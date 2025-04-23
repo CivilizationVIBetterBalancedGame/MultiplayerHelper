@@ -251,10 +251,10 @@
 				<Text>Ideia de Lege: 15 segundos para os 15 primeiros turnos, 45 segundos até os turnos 70 e 75.</Text>
 			</Replace>
 			<Replace Tag="TIMER_CIVLAN_NAME" language="pt_BR">
-				<Text>CivLan 2025</Text>
+					<Text>CivLan / CWC 2025</Text>
 			</Replace>
 			<Replace Tag="TIMER_CIVLAN_DESC" language="pt_BR">
-				<Text>Cronômetro dinâmico para a CivLan 2025.TIMER_CIVLAN</Text>
+					<Text>Temporizador dinâmico para CWC + CivLan 2025.</Text>
 			</Replace>
 			<Replace Tag="TIMER_SEPHI_NAME" language="pt_BR">
 				<Text>Moderado</Text>
