@@ -858,6 +858,7 @@ function OneVOneRR_Natural_Wonders()
 	local default = {}
 	default = {
 				"FEATURE_BERMUDA_TRIANGLE"
+				"FEATURE_MATTERHORN"
 				}
 	GameConfiguration.SetValue("EXCLUDE_NATURAL_WONDERS",default)
 end
@@ -944,9 +945,7 @@ end
 function OneVOneRR_CS()
 	local default = {}
 	default ={
-			"CIVILIZATION_KUMASI",
-			"CIVILIZATION_LAHORE",
-			"CIVILIZATION_JOHANNESBURG"
+			"CIVILIZATION_KUMASI"
 			}
 	GameConfiguration.SetValue("EXCLUDE_CITY_STATES",default)
 end
