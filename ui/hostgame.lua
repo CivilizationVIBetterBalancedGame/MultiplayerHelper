@@ -857,7 +857,7 @@ end
 function OneVOneRR_Natural_Wonders()
 	local default = {}
 	default = {
-				"FEATURE_BERMUDA_TRIANGLE"
+				"FEATURE_BERMUDA_TRIANGLE",
 				"FEATURE_MATTERHORN"
 				}
 	GameConfiguration.SetValue("EXCLUDE_NATURAL_WONDERS",default)
