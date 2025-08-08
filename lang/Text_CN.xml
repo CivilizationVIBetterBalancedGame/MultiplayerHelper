@@ -250,6 +250,7 @@
         </Replace>
         <Replace Tag="TIMER_LEGE_DESC" language="zh_Hans_CN">
             <Text>来自Lege的压力：前15回合时间为15秒，15-70回合为45秒，之后为75秒。</Text>
+        </Replace>
         <Replace Tag="TIMER_CIVLAN_NAME" language="zh_Hans_CN">
             <Text>CivLan / CWC 2025</Text>
         </Replace>
@@ -933,10 +934,10 @@
         <Replace Tag="MPH_PRESET_2vi2_DESC" Language="zh_Hans_CN">
             <Text>CPL 2v2 联赛的预设</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_CPL_GOAT_DESC" Language="zh_CN">
+        <Replace Tag="MPH_PRESET_CPL_GOAT_DESC" Language="zh_Hans_CN">
             <Text>文明玩家联盟 GOAT 锦标赛预设</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_CPL_GOAT_NAME" Language="zh_CN">
+        <Replace Tag="MPH_PRESET_CPL_GOAT_NAME" Language="zh_Hans_CN">
             <Text>CPL G.O.A.T</Text>
         </Replace>
     </LocalizedText>

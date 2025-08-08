@@ -917,6 +917,7 @@
 			</Replace>
 			<Replace Tag="MPH_PRESET_CPLSQUADRON_NAME" Language="pt_BR">
 				<Text>Liga Premier CPL</Text>
+			</Replace>
 			<Replace Tag="MPH_PRESET_CPLSQUADRON_DESC" Language="pt_BR">
 				<Text>Predefinição para jogos da Liga.</Text>
 			</Replace>
