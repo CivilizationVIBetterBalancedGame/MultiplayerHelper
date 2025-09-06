@@ -850,8 +850,7 @@ end
 function FFA_CivFr_Natural_Wonders()
 	local default = {}
 	default = {
-				"FEATURE_BERMUDA_TRIANGLE",
-				"FEATURE_ZHANGYE_DANXIA"
+				"FEATURE_BERMUDA_TRIANGLE"
 				}
 	GameConfiguration.SetValue("EXCLUDE_NATURAL_WONDERS",default)
 end
