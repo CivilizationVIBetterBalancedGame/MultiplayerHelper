@@ -841,7 +841,8 @@ end
 function Squadron_Natural_Wonders()
 	local default = {}
 	default = {
-				"FEATURE_BERMUDA_TRIANGLE"
+				"FEATURE_BERMUDA_TRIANGLE",
+				"FEATURE_ZHANGYE_DANXIA"
 				}
 	GameConfiguration.SetValue("EXCLUDE_NATURAL_WONDERS",default)
 end
