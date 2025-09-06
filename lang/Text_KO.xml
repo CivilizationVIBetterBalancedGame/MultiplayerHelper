@@ -771,12 +771,6 @@
 		<Replace Tag="MPH_PRESET_PPL_ARENA_DESC" Language="ko_KR">
 			<Text>PPL 1v1 한 대륙 판게아</Text>
 		</Replace>
-		<Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_NAME" Language="ko_KR">
-			<Text>PPL 전장</Text>
-		</Replace>
-		<Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_DESC" Language="ko_KR">
-			<Text>PPL 1v1 두 대륙 판게아</Text>
-		</Replace>
 		<Replace Tag="MPH_PRESET_CIVFRFFA_NAME" Language="ko_KR">
 			<Text>FFA CivFr</Text>
 		</Replace>

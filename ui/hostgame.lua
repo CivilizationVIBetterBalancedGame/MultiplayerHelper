@@ -1049,22 +1049,15 @@ function CheckPreset()
 			PPLGamemode_CS()
 			GameConfiguration.SetValue("CITY_STATE_COUNT",3)
 		end
-		-- PPL Battleground
-		if currentPreset == 9 then
-			print("Applied PPL Battleground Settings")
-			PPLGamemode_Natural_Wonders()
-			PPLGamemode_CS()
-			GameConfiguration.SetValue("CITY_STATE_COUNT",6)
-		end
 		-- 2vi2CPL 
-		if currentPreset == 10 then
+		if currentPreset == 9 then
 			print("Applied 2vi2 Settings")
 			TwoVTwoCPL_Natural_Wonders()
 			TwoVTwoCPL_CS()
 			GameConfiguration.SetValue("CITY_STATE_COUNT",6)
 		end
 		-- GOAT
-		if currentPreset == 11 then
+		if currentPreset == 10 then
 			print("Applied GOAT Settings")
 			GOAT_CS()
 			OneVOneRR_Natural_Wonders()

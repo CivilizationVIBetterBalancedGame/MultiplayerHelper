@@ -915,10 +915,6 @@
         </Replace>
         <Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_NAME" Language="en_US">
             <Text>PPL Battleground</Text>
-        </Replace>
-        <Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_DESC" Language="en_US">
-            <Text>PPL 1v1 Two Continent Pangea</Text>
-        </Replace>
         <Replace Tag="MPH_PRESET_CIVFRFFA_NAME" Language="en_US">
             <Text>FFA CivFr</Text>
         </Replace>

@@ -910,12 +910,6 @@
         <Replace Tag="MPH_PRESET_PPL_ARENA_DESC" Language="zh_Hans_CN">
             <Text>PPL 1v1 一个大陆盘古大陆</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_NAME" Language="zh_Hans_CN">
-            <Text>PPL战场</Text>
-        </Replace>
-        <Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_DESC" Language="zh_Hans_CN">
-            <Text>PPL 1v1 两个大陆盘古大陆</Text>
-        </Replace>
         <Replace Tag="MPH_PRESET_CIVFRFFA_NAME" Language="zh_Hans_CN">
             <Text>FFA CivFr 混战</Text>
         </Replace>
