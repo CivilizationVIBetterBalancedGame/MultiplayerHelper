@@ -311,6 +311,7 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="NO_TRADING_CITIES" TargetValue="0" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="ALLIANCE_MILITARY" TargetValue="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="DRAFT_MAP" TargetValue="0" Hash="0"/>
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="GAME_REALISM" TargetValue="1"/>
 		
 		<!-- Map Pool -->
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="BAN_POOL_1" TargetValue="0" Hash="0"/>
