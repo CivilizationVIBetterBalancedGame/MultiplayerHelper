@@ -926,7 +926,7 @@
             <Text>Typical settings of Chinese League Cup</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_PPL_TEAM_NAME" Language="en_US">
-            <Text>Team PPL</Text>
+            <Text>PPL Team</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_PPL_TEAM_DESC" Language="en_US">
             <Text>PPL 2v2 League Preset</Text>
