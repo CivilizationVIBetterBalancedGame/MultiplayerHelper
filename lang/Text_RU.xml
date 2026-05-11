@@ -909,11 +909,11 @@
             <Text>Если игра является частью официального турнира, то другие моды могут загружать/отключать дополнительные возможности.</Text>
         </Replace>
 		
-        <Replace Tag="MPH_PRESET_PPL_ARENA_NAME" Language="ru_RU">
-            <Text>Арена PPL</Text>
+        <Replace Tag="MPH_PRESET_PPL_DUEL_NAME" Language="ru_RU">
+            <Text>PPL к оплате</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_PPL_ARENA_DESC" Language="ru_RU">
-            <Text>PPL 1v1 Один Континент Пангея</Text>
+        <Replace Tag="MPH_PRESET_PPL_DUEL_DESC" Language="ru_RU">
+            <Text>Пресет дуэльной лиги PPL</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_CIVFRFFA_NAME" Language="ru_RU">
             <Text>FFA CivFr</Text>
@@ -927,11 +927,11 @@
         <Replace Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_DESC" Language="ru_RU">
             <Text>Типичные настройки Кубка Китайской Лиги</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_2vi2_NAME" Language="ru_RU">
-            <Text>2на2</Text>
+        <Replace Tag="MPH_PRESET_PPL_TEAM_NAME" Language="ru_RU">
+            <Text>Команда PPL</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_2vi2_DESC" Language="ru_RU">
-            <Text>Пресет для Лиги CPL 2v2</Text>
+        <Replace Tag="MPH_PRESET_PPL_TEAM_DESC" Language="ru_RU">
+            <Text>Пресет командной лиги PPL</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_CPL_GOAT_DESC" Language="ru_RU">
             <Text>Пресет турнира GOAT Лиги CivPlayer</Text>

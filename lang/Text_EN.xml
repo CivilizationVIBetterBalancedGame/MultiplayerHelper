@@ -907,14 +907,12 @@
         <Replace Tag="TIMER_2VI2_DESC" Language="en_US">
             <Text>Very fast timer that starts at 15 seconds and increases in jumps till 60 second by turn 40. Scales linearly after</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_PPL_ARENA_NAME" Language="en_US">
-            <Text>PPL Arena</Text>
+        <Replace Tag="MPH_PRESET_PPL_DUEL_NAME" Language="en_US">
+            <Text>PPL Duel</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_PPL_ARENA_DESC" Language="en_US">
+        <Replace Tag="MPH_PRESET_PPL_DUEL_DESC" Language="en_US">
             <Text>PPL 1v1 One Continent Pangea</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_PPL_BATTLEGROUND_NAME" Language="en_US">
-            <Text>PPL Battleground</Text>
         <Replace Tag="MPH_PRESET_CIVFRFFA_NAME" Language="en_US">
             <Text>FFA CivFr</Text>
         </Replace>
@@ -927,11 +925,11 @@
         <Replace Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_DESC" Language="en_US">
             <Text>Typical settings of Chinese League Cup</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_2vi2_NAME" Language="en_US">
-            <Text>2vi2</Text>
+        <Replace Tag="MPH_PRESET_PPL_TEAM_NAME" Language="en_US">
+            <Text>Team PPL</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_2vi2_DESC" Language="en_US">
-            <Text>2vi2</Text>
+        <Replace Tag="MPH_PRESET_PPL_TEAM_DESC" Language="en_US">
+            <Text>PPL 2v2 League Preset</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_CPL_GOAT_DESC" Language="en_US">
             <Text>CivPlayer League GOAT Tournament Preset</Text>

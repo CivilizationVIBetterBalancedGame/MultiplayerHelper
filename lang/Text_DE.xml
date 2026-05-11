@@ -906,11 +906,11 @@
 		<Replace Tag="TIMER_2VI2_DESC" Language="de_DE">
             <Text>Sehr schneller Timer, der bei 15 Sekunden beginnt und bis zur 40. Runde in Sprüngen auf 60 Sekunden ansteigt. Skaliert danach linear.</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_PPL_ARENA_NAME" Language="de_DE">
-            <Text>PPL Arena</Text>
+        <Replace Tag="MPH_PRESET_PPL_DUEL_NAME" Language="de_DE">
+            <Text>PPL fällig</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_PPL_ARENA_DESC" Language="de_DE">
-            <Text>PPL 1v1 Ein Kontinent Pangea</Text>
+        <Replace Tag="MPH_PRESET_PPL_DUEL_DESC" Language="de_DE">
+            <Text>PPL-Duellliga-Voreinstellung</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_CIVFRFFA_NAME" Language="de_DE">
             <Text>FFA CivFr</Text>
@@ -924,11 +924,11 @@
         <Replace Tag="MPH_PRESET_CHINESE_LEAGUE_CUP_DESC" Language="de_DE">
             <Text>Typische Einstellungen des Chinesischen Liga Cups</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_2vi2_NAME" Language="de_DE">
-            <Text>2v2</Text>
+        <Replace Tag="MPH_PRESET_PPL_TEAM_NAME" Language="de_DE">
+            <Text>PPL-Team</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_2vi2_DESC" Language="de_DE">
-            <Text>Voreinstellung für die CPL 2v2 Liga</Text>
+        <Replace Tag="MPH_PRESET_PPL_TEAM_DESC" Language="de_DE">
+            <Text>PPL-Teamliga-Voreinstellung</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_CPL_GOAT_DESC" Language="de_DE">
             <Text>CivPlayer Liga GOAT Turnier-Voreinstellung</Text>

@@ -10,10 +10,10 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="5" TargetGroup="Game" TargetId="BSM_TOURNAMENT" TargetValue="1v1 Royal Rumble" Hash="0" />
 		<!-- Chinese League Cup Default Name -->
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="7" TargetGroup="Game" TargetId="BSM_TOURNAMENT" TargetValue="Chinese League Cup" Hash="0" />
-		<!-- PPL Arena Default Name -->
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="BSM_TOURNAMENT" TargetValue="PPL Arena" Hash="0" />
-		<!-- 2vi2 Default Name -->
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="BSM_TOURNAMENT" TargetValue="2vi2 " Hash="0" />
+		<!-- PPL Duels Default Name -->
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="BSM_TOURNAMENT" TargetValue="PPL Duels" Hash="0" />
+		<!-- PPL Teams Default Name -->
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="BSM_TOURNAMENT" TargetValue="PPL Teams" Hash="0" />
 		<!-- GOAT Default Name -->
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Game" TargetId="BSM_TOURNAMENT" TargetValue="G.O.A.T. Tournament" Hash="0" />
 	</ConfigurationUpdates>

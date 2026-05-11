@@ -915,17 +915,6 @@ function PPLGamemode_Natural_Wonders()
 	GameConfiguration.SetValue("EXCLUDE_NATURAL_WONDERS",default)
 end
 
-function TwoVTwoCPL_Natural_Wonders()
-	local default = {}
-	default = {
-				"FEATURE_NAMIB",
-				"FEATURE_ZHANGYE_DANXIA",
-				"FEATURE_MATTERHORN",
-				"FEATURE_BERMUDA_TRIANGLE"
-				}
-	GameConfiguration.SetValue("EXCLUDE_NATURAL_WONDERS",default)
-end
-
 function OneVOneRR_CS()
 	local default = {}
 	default ={
@@ -946,26 +935,6 @@ function PPLGamemode_CS()
 				"CIVILIZATION_CARDIFF",
 				"CIVILIZATION_SAMARKAND",
 				"CIVILIZATION_KUMASI"		
-				}
-	GameConfiguration.SetValue("EXCLUDE_CITY_STATES",default)
-end
-
-function TwoVTwoCPL_CS()
-	local default = {}
-	default ={
-				"CIVILIZATION_KUMASI", 
-				"CIVILIZATION_JOHANNESBUR",
-				"CIVILIZATION_ZANZIBAR",
-				"CIVILIZATION_LAHORE",
-				"CIVILIZATION_AYUTTHAYA",
-				"CIVILIZATION_PALENQUE",
-				"CIVILIZATION_NALANDA",
-				"CIVILIZATION_HATTUSA",
-				"CIVILIZATION_TARUGA",
-				"CIVILIZATION_BOLOGNA",
-				"CIVILIZATION_FEZ",
-				"CIVILIZATION_GENEVA",
-				"CIVILIZATION_BABYLON"
 				}
 	GameConfiguration.SetValue("EXCLUDE_CITY_STATES",default)
 end
@@ -1041,10 +1010,10 @@ function CheckPreset()
 		end
 		-- 2vi2CPL 
 		if currentPreset == 9 then
-			print("Applied 2vi2 Settings")
-			TwoVTwoCPL_Natural_Wonders()
-			TwoVTwoCPL_CS()
-			GameConfiguration.SetValue("CITY_STATE_COUNT",6)
+			print("Applied PPL Arena Settings")
+			PPLGamemode_Natural_Wonders()
+			PPLGamemode_CS()
+			GameConfiguration.SetValue("CITY_STATE_COUNT",12)
 		end
 		-- GOAT
 		if currentPreset == 10 then

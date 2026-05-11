@@ -12,10 +12,12 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="5" TargetGroup="Map" TargetId="BBSRidge" TargetValue="1" Hash="0" />
 		<!-- Chinese League Cup Defaulting -->
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="7" TargetGroup="Map" TargetId="BBSRidge" TargetValue="0" Hash="0" />
-		<!-- PPL Arena Defaulting -->
+		<!-- PPL Duels Defaulting -->
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Map" TargetId="BBSRidge" TargetValue="0" Hash="0" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Map" TargetId="BBSNatural" TargetValue="2" Hash="0" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Map" TargetId="BBM_Team_Spawn" TargetValue="1" Hash="0" />
-		<!--2vi2 Defaulting-->
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Map" TargetId="BBSRidge" TargetValue="1" Hash="0" />
+		<!-- PPL Teams Defaulting -->
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Map" TargetId="BBSRidge" TargetValue="0" Hash="0" />
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Map" TargetId="BBSNatural" TargetValue="2" Hash="0" />
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Map" TargetId="BBM_Team_Spawn" TargetValue="1" Hash="0" />
 </GameInfo>
