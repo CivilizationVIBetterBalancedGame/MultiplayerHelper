@@ -531,7 +531,7 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Map" TargetId="MAP_SIZE" TargetValue="MAPSIZE_LARGE" Hash="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Game" TargetId="GAME_NO_BARBARIANS" TargetValue="1" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Map" TargetId="temperature" TargetValue="2"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Map" TargetId="sea_level" TargetValue="2"/>
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Map" TargetId="sea_level" TargetValue="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Game" TargetId="GAME_REALISM" TargetValue="2"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Game" TargetId="NO_FRIENDSHIP" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Game" TargetId="NO_TRADING_FAVOR" TargetValue="1" />
