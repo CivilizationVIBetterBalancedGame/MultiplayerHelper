@@ -304,14 +304,14 @@ function OnMultiplayerChat( fromPlayer, toPlayer, text, eTargetType )
 	end
 	
 	-- Requesting a VoteMap
-	if (string.lower(text) == ".mph_ui_vote_remap_request" and localID == hostID)  then
+	if (string.lower(text) == ".mph_ui_vote_remap_request" and localID == hostID and fromPlayer == hostID)  then
 		OnRequestHostVoteRemap()
 		return
 	end
 	
 	-- Requesting a Kick
 	
-	if ( (string.sub(string.lower(text),1,13) == ".mph_ui_kick_") and localID == hostID)  then
+	if ( (string.sub(string.lower(text),1,13) == ".mph_ui_kick_") and localID == hostID and fromPlayer == hostID)  then
 		local kick_id = string.sub(text,14)
 		if kick_id ~= nil then
 			kick_id = tonumber(kick_id)
