@@ -910,7 +910,7 @@
         </Replace>
 		
         <Replace Tag="MPH_PRESET_PPL_DUEL_NAME" Language="ru_RU">
-            <Text>PPL к оплате</Text>
+            <Text>PPL дуэль</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_PPL_DUEL_DESC" Language="ru_RU">
             <Text>Пресет дуэльной лиги PPL</Text>
@@ -928,7 +928,7 @@
             <Text>Типичные настройки Кубка Китайской Лиги</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_PPL_TEAM_NAME" Language="ru_RU">
-            <Text>Команда PPL</Text>
+            <Text>PPL тиммерсы</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_PPL_TEAM_DESC" Language="ru_RU">
             <Text>Пресет командной лиги PPL</Text>
