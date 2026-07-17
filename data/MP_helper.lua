@@ -100,6 +100,44 @@ local b_debug = false
 -- ===========================================================================
 
 
+-- ===========================================================================
+--	HOTJOIN PERSISTENCE HELPERS
+--	Unit drop-state is serialized into Player:SetProperty() so it survives
+--	the save file and is available to ALL clients on hotjoin, not just the
+--	host's in-memory Drop_Data table.
+-- ===========================================================================
+
+-- Serialize the unit table produced by OnDrop into a pipe-delimited string
+-- format: "unitID:moves|unitID:moves|..."
+function MPH_SerializeUnits(unit_table)
+	local count = unit_table["count"] or 0
+	if count == 0 then return "" end
+	local parts = {}
+	for k = 1, count do
+		local entry = unit_table[k]
+		if entry then
+			table.insert(parts, tostring(entry.ID) .. ":" .. tostring(entry.moves))
+		end
+	end
+	return table.concat(parts, "|")
+end
+
+-- Deserialize the pipe-delimited string back into a unit table
+function MPH_DeserializeUnits(str)
+	local unit_table = { count = 0 }
+	if str == nil or str == "" then return unit_table end
+	local count = 0
+	for entry in string.gmatch(str, "([^|]+)") do
+		local id_str, moves_str = string.match(entry, "^(%d+):(-?%d+)$")
+		if id_str and moves_str then
+			count = count + 1
+			unit_table[count] = { ID = tonumber(id_str), moves = tonumber(moves_str) }
+		end
+	end
+	unit_table["count"] = count
+	return unit_table
+end
+
 -- =========================================================================== 
 --	NEW EVENTS
 -- =========================================================================== 
@@ -150,10 +188,6 @@ end
 -- Drop/Restore Mechanics
 
 function OnDrop(playerID:number)
-	print("Ondrop: Saving Player",playerID,"'s data")
-	-- Drop_Player Table
-	local Drop_P = {}
-	-- Units
 	local pPlayer = Players[playerID];
 	local pPlayerUnits = pPlayer:GetUnits();
 	local tmp_unit = {}
@@ -161,53 +195,122 @@ function OnDrop(playerID:number)
 	for i, unit in pPlayerUnits:Members() do
 		counter = counter + 1
 		tmp_unit[counter] = { ID = unit:GetID(), moves = unit:GetMovesRemaining()}
-		print("unit:GetMovesRemaining()",unit:GetMovesRemaining())
 		UnitManager.ChangeMovesRemaining(unit, -99)
-		print("unit:GetMovesRemaining()",unit:GetMovesRemaining())
-		print("counter",counter,"tmp_unit[counter] ",tmp_unit[counter] ,"tmp_unit[counter].ID",tmp_unit[counter].ID,"tmp_unit[counter].moves",tmp_unit[counter].moves) 
 	end
 	tmp_unit["count"] = counter
-	Drop_P = { unit = tmp_unit }
+	local Drop_P = { unit = tmp_unit }
 	Drop_Data[playerID] = Drop_P
+	-- Persist to player property so any client can restore after a hotjoin reload
+	local serialized = MPH_SerializeUnits(tmp_unit)
+	Players[playerID]:SetProperty("MPH_DROP_UNITS", serialized)
+	print("[MPH-HOTJOIN] DROP player="..tostring(playerID)
+		.." units="..tostring(counter)
+		.." data=\""..tostring(serialized).."\""
+		.." turn="..tostring(Game.GetCurrentGameTurn()))
 end
 
 LuaEvents.UICPLPlayerDrop.Add( OnDrop );
 
 function RestoreUnits(unit_table:table,playerID:number)
-	print("RestoreUnits", playerID)
-	if unit_table["count"] < 1 then
+	local expected = unit_table["count"] or 0
+	if expected < 1 then
+		print("[MPH-HOTJOIN] RESTORE player="..tostring(playerID).." SKIPPED (no units in table)")
 		return
 	end
-
-	
 	local pPlayer = Players[playerID];
 	local pPlayerUnits = pPlayer:GetUnits();
-	-- Restore all the units
-	local counter = 0
+	local restored = 0
 	for i, unit in pPlayerUnits:Members() do
 		local unit_ID = unit:GetID()
-		for k = 1, unit_table["count"] do
+		for k = 1, expected do
 			if unit_ID == unit_table[k].ID then
 				UnitManager.ChangeMovesRemaining(unit, unit_table[k].moves)
-				print(unit:GetID(),unit:GetMovesRemaining())
-				counter = counter + 1
+				print("[MPH-HOTJOIN] RESTORE-UNIT player="..tostring(playerID)
+					.." unit="..tostring(unit_ID)
+					.." moves_added="..tostring(unit_table[k].moves)
+					.." moves_now="..tostring(unit:GetMovesRemaining()))
+				restored = restored + 1
 				break
 			end
 		end
-		if counter == unit_table["count"] then
-			break
-		end
+		if restored == expected then break end
 	end
-	
+	print("[MPH-HOTJOIN] RESTORE-SUMMARY player="..tostring(playerID)
+		.." restored="..tostring(restored)
+		.." expected="..tostring(expected)
+		..(restored == expected and " STATUS=OK" or " STATUS=PARTIAL"))
 end
 
 function OnConnect(playerID:number)
-	print("OnConnect", playerID)
-	RestoreUnits(Drop_Data[playerID].unit,playerID)
+	print("[MPH-HOTJOIN] ONCONNECT-VIA-DROPCONTROL player="..tostring(playerID))
+	local unit_table = nil
+	local source = "none"
+
+	-- Primary source: in-memory table (host never reloaded since the drop)
+	if Drop_Data[playerID] ~= nil then
+		unit_table = Drop_Data[playerID].unit
+		source = "memory"
+	else
+		-- Fallback: property persisted during OnDrop; survives save/reload and hotjoin
+		local serialized = Players[playerID]:GetProperty("MPH_DROP_UNITS")
+		if serialized ~= nil and serialized ~= "" then
+			unit_table = MPH_DeserializeUnits(serialized)
+			source = "property"
+		end
+	end
+
+	print("[MPH-HOTJOIN] ONCONNECT source="..source.." player="..tostring(playerID))
+
+	if unit_table == nil then
+		print("[MPH-HOTJOIN] ONCONNECT SKIPPED - no drop data for player="..tostring(playerID))
+		return
+	end
+
+	RestoreUnits(unit_table, playerID)
+	Players[playerID]:SetProperty("MPH_DROP_UNITS", "")
+	Drop_Data[playerID] = nil
 end
 
 
 LuaEvents.UICPLPlayerConnect.Add( OnConnect );
+
+-- ===========================================================================
+-- HOTJOIN DIRECT RESTORE
+-- OnConnect (above) is triggered by DropControl.lua, which re-initialises with
+-- an empty g_dropped_player_list on the JOINING PLAYER'S OWN CLIENT -- so it
+-- never fires for them.  OnDirectConnect listens to the raw C++ engine event
+-- which DOES fire on every client, including the rejoining player themselves.
+-- It reads the property written by OnDrop and restores if OnConnect hasn't
+-- already handled it (detected by checking whether the property is still set).
+-- ===========================================================================
+function OnDirectConnect(playerID:number)
+	local serialized = Players[playerID]:GetProperty("MPH_DROP_UNITS")
+	local hasMemory   = Drop_Data[playerID] ~= nil
+	local hasProp     = (serialized ~= nil and serialized ~= "")
+	print("[MPH-HOTJOIN] ONDIRECTCONNECT player="..tostring(playerID)
+		.." memory="..tostring(hasMemory)
+		.." property="..tostring(hasProp))
+
+	-- If OnConnect already ran (via LuaEvent bridge from DropControl) it will
+	-- have cleared Drop_Data.  In that case skip to avoid double-restore.
+	if hasMemory then
+		print("[MPH-HOTJOIN] ONDIRECTCONNECT SKIPPED - OnConnect will handle player="..tostring(playerID))
+		return
+	end
+
+	if not hasProp then
+		print("[MPH-HOTJOIN] ONDIRECTCONNECT SKIPPED - no property data for player="..tostring(playerID))
+		return
+	end
+
+	-- This is the JOINING CLIENT path: DropControl reinitialised fresh so
+	-- OnConnect never fired.  Restore directly from the save-file property.
+	print("[MPH-HOTJOIN] ONDIRECTCONNECT RESTORING player="..tostring(playerID).." data=\""..serialized.."\"")
+	local unit_table = MPH_DeserializeUnits(serialized)
+	RestoreUnits(unit_table, playerID)
+	Players[playerID]:SetProperty("MPH_DROP_UNITS", "")
+	Drop_Data[playerID] = nil
+end
 
 --	Sudden Death
 
@@ -421,6 +524,8 @@ function Initialize()
 
 	GameEvents.OnGameTurnStarted.Add(OnGameTurnStarted);
 	GameEvents.OnGameTurnStarted.Add(NoMoreStack);
+	-- Direct engine event: fires on ALL clients including the rejoining player
+	Events.MultiplayerPlayerConnected.Add(OnDirectConnect);
 	for i = 0, PlayerManager.GetWasEverAliveMajorsCount() -1 do
 		if Players[i]:IsAlive() == true then
 			if Players[i]:GetTeam() ~= i then
