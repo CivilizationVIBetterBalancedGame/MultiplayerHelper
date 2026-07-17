@@ -12,6 +12,9 @@ local _kPopupDialog = {}
 local g_dropped_player_list = {};
 local m_visible = false
 local m_last_update = 0
+-- Prevent the engine from firing MultiplayerPlayerConnected twice for the
+-- same hotjoin event (double-load guard: reject a second connect within 5 s)
+local g_connect_debounce = {};
 
 -- ===========================================================================
 --	New Functions
@@ -47,6 +50,14 @@ end
 
 function OnMultplayerPlayerConnected( playerID )
 	--print ("Time Connected", os.date("%c"))
+	-- Double-connect guard: Civ VI can fire this event twice for the same hotjoin.
+	-- Ignore a second connect for the same player within 5 seconds.
+	local currentTime = math.floor(Automation.GetTime())
+	if g_connect_debounce[playerID] ~= nil and (currentTime - g_connect_debounce[playerID]) < 5 then
+		print("OnMultplayerPlayerConnected: Debouncing duplicate connect for player", playerID)
+		return
+	end
+	g_connect_debounce[playerID] = currentTime
 	if g_dropped_player_list ~= {} then
 		for i, player in ipairs(g_dropped_player_list) do
 			if player.ID == playerID and player.IsDropped == true then
@@ -146,6 +157,7 @@ end
 -- ===========================================================================
 function OnShutdown()
 	ContextPtr:SetHide(true);
+	g_connect_debounce = {};
 	Events.MultiplayerPlayerConnected.Remove ( OnMultplayerPlayerConnected )
 	Events.MultiplayerPrePlayerDisconnected.Remove ( OnMultiplayerPrePlayerDisconnected )
 end
