@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
     <LocalizedText>
+
         <!-- New entries -->
         <Replace Tag="LOC_MAP_RICH_HIGHTLANDS_NANME" Language="de_DE">
             <Text>Reiches Hochland</Text>
@@ -20,12 +21,6 @@
         <Replace Tag="CPL_SYNCTURN_DESC" Language="de_DE">
             <Text>Alle menschlichen Spieler beginnen und beenden ihren Zug zur gleichen Zeit.</Text>
         </Replace>
-        <Replace Tag="CPL_CWC_NAME" Language="de_DE">
-            <Text>[COLOR_Civ6Red]Offizielles CWC-Spiel[ENDCOLOR]</Text>
-        </Replace>
-        <Replace Tag="CPL_CWC_DESC" Language="de_DE">
-            <Text>Festlegen der Parameter für das Civ World Cup-Turnier</Text>
-        </Replace>
         <Replace Tag="LOC_ABILITY_LAST_MOVED_NAME" Language="de_DE">
             <Text>Unvorbereitet</Text>
         </Replace>
@@ -35,7 +30,7 @@
         <Replace Tag="LOC_MOD_LAST_MOVED_DESCRIPTION" Language="de_DE">
             <Text>-20 [ICON_Strength] Kampfstärke beim Angriff in den ersten Sekunden des Zuges.</Text>
         </Replace>
-		
+
         <Replace Tag="LOC_ABILITY_LAST_MOVED_READY_NAME" Language="de_DE">
             <Text>Bereit!</Text>
         </Replace>
@@ -54,35 +49,28 @@
         <Replace Tag="CPL_CS_DESC" Language="de_DE">
             <Text>Bestimmen Sie die maximale Anzahl von Stadtstaaten, die jeder Spieler besitzen kann. Zusätzliche Stadtstaaten, die darüber hinaus erobert werden, werden systematisch zerstört (Standard = 1)</Text>
         </Replace>
-		
-        <Replace Tag="CPL_IRONMAN_NAME" Language="de_DE">
-            <Text>Eisenmann-Modus</Text>
-        </Replace>
-        <Replace Tag="CPL_IRONMAN_DESC" Language="de_DE">
-            <Text>Kein Aufgabe-Stimmen, ein Kampf bis zum Tod! (Standard = Aus)</Text>
-        </Replace>
-		
+
         <Replace Tag="CPL_NO_PINS_NAME" Language="de_DE">
             <Text>Keine Kartenmarkierungen</Text>
         </Replace>
         <Replace Tag="CPL_NO_PINS_DESC" Language="de_DE">
             <Text>Die Möglichkeit zur Verwendung von Kartenmarkierungen wird entfernen, um Leistungsprobleme zu reduzieren (Standard = Aus)</Text>
         </Replace>
-		
+
         <Replace Tag="CPL_SUDDENDEATH_NAME" Language="de_DE">
             <Text>Plötzlicher Tod</Text>
         </Replace>
         <Replace Tag="CPL_SUDDENDEATH_DESC" Language="de_DE">
             <Text>Die niedrigst bewerteten Spieler werden nach und nach eliminiert! (Standard = Aus)</Text>
         </Replace>
-		
+
         <Replace Tag="CPL_FREECITY_STRONGER_NAME" Language="de_DE">
             <Text>Stärkere Freie Städte</Text>
         </Replace>
         <Replace Tag="CPL_FREECITY_STRONGER_DESC" Language="de_DE">
             <Text>Freie Städte bauen ihre Mauern schneller (Standard = Aus)</Text>
         </Replace>
-		
+
         <Replace Tag="CPL_LASTMOVE_OPT_NAME" Language="de_DE">
             <Text>Letzter Zug Malus</Text>
         </Replace>
@@ -95,8 +83,7 @@
         <Replace Tag="CPL_FREECITY_OPT_DESC" Language="de_DE">
             <Text>In FFA würden unbedeutende Spieler ihre Städte in freie Städte verwandeln, was das Brechen bestehender Allianzen/Freundschaften ermöglicht (Standard = Ein)</Text>
         </Replace>
-		
-		
+
         <Replace Tag="CPL_RULES_NAME" Language="de_DE">
             <Text>CivPlayers Liga Regeln</Text>
         </Replace>
@@ -109,32 +96,6 @@
         </Replace>
         <Replace Tag="CPL_SMARTTIMER_DESC" Language="de_DE">
             <Text>Überschreiben Sie den Basis-Spiel-Timer dynamisch</Text>
-        </Replace>
-
-        <Replace Tag="CPL_TRADING_CITY_NAME" Language="de_DE">
-            <Text>Stadt-Handel</Text>
-        </Replace>
-		
-        <Replace Tag="CPL_TRADING_CITY_DESC" Language="de_DE">
-            <Text>Erlaubt den Spielern den Handel mit Städten (Standard = Aus)</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_GOLD_NAME" Language="de_DE">
-            <Text>Gold-Handel</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_GOLD_DESC" Language="de_DE">
-            <Text>Erlaubt den Spielern den Handel mit Gold (Standard = Ein)</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_LUXURY_NAME" Language="de_DE">
-            <Text>Luxus-Handel</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_LUXURY_DESC" Language="de_DE">
-            <Text>Erlaubt den Spielern den Handel mit Luxus-Ressourcen (Standard = Ein)</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_STRATEGIC_NAME" Language="de_DE">
-            <Text>Strategischer Handel</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_STRATEGIC_DESC" Language="de_DE">
-            <Text>Erlaubt den Spielern den Handel mit strategischen Ressourcen (Standard = Ein)</Text>
         </Replace>
         <Replace Tag="CPL_TRADING_NONE_NAME" Language="de_DE">
             <Text>Verboten</Text>
@@ -174,18 +135,6 @@
         <Replace Tag="BAN_FORMAT_NOBAN_DESC" Language="de_DE">
             <Text>Keine Einschränkungen wie im Originalspiel</Text>
         </Replace>
-        <Replace Tag="BAN_FORMAT_NORANDOM_NAME" Language="de_DE">
-            <Text>Keine Zufalls-Anführer</Text>
-        </Replace>
-        <Replace Tag="BAN_FORMAT_NORANDOM_DESC" Language="de_DE">
-            <Text>Spieler müssen einen Anführer auswählen</Text>
-        </Replace>
-        <Replace Tag="BAN_FORMAT_6BANS_NAME" Language="de_DE">
-            <Text>Informelle 6 Banns</Text>
-        </Replace>
-        <Replace Tag="BAN_FORMAT_6BANS_DESC" Language="de_DE">
-            <Text>Der Gastgeber kann 6 Anführer bannen</Text>
-        </Replace>
         <Replace Tag="BAN_FORMAT_TOURNAMENT_NAME" Language="de_DE">
             <Text>Turnier</Text>
         </Replace>
@@ -198,8 +147,8 @@
         <Replace Tag="BAN_FORMAT_VOTEDRAFT_DESC" Language="de_DE">
             <Text>Spieler stellen das Spiel basierend auf Mehrheitsvotum ein. [WIP]</Text>
         </Replace>
-		
-		<Replace Tag="CPL_BAN_01_NAME" Language="de_DE">
+
+        <Replace Tag="CPL_BAN_01_NAME" Language="de_DE">
             <Text>Ban Nr. 1</Text>
         </Replace>
         <Replace Tag="CPL_BAN_02_NAME" Language="de_DE">
@@ -216,6 +165,18 @@
         </Replace>
         <Replace Tag="CPL_BAN_06_NAME" Language="de_DE">
             <Text>Ban Nr. 6</Text>
+        </Replace>
+        <Replace Tag="CPL_BAN_07_NAME" Language="de_DE">
+            <Text>Ban Nr. 7</Text>
+        </Replace>
+        <Replace Tag="CPL_BAN_08_NAME" Language="de_DE">
+            <Text>Ban Nr. 8</Text>
+        </Replace>
+        <Replace Tag="CPL_BAN_09_NAME" Language="de_DE">
+            <Text>Ban Nr. 9</Text>
+        </Replace>
+        <Replace Tag="CPL_BAN_10_NAME" Language="de_DE">
+            <Text>Ban Nr. 10</Text>
         </Replace>
         <Replace Tag="CPL_BAN_DESC" Language="de_DE">
             <Text>Verbannen Sie einen Anführer aus dem Draft</Text>
@@ -250,10 +211,10 @@
         <Replace Tag="TIMER_LEGE_DESC" Language="de_DE">
             <Text>Lege's Druck: Timer mit 15 Sekunden für die ersten 15 Züge, 45 Sekunden bis Zug 70 und 75 Sekunden danach.</Text>
         </Replace>
-        <Replace Tag="TIMER_CIVLAN_NAME" language="de_DE">
+        <Replace Tag="TIMER_CIVLAN_NAME" Language="de_DE">
             <Text>CivLan / CWC 2025</Text>
         </Replace>
-        <Replace Tag="TIMER_CIVLAN_DESC" language="de_DE">
+        <Replace Tag="TIMER_CIVLAN_DESC" Language="de_DE">
             <Text>Dynamischer Timer für CWC + CivLan 2025.</Text>
         </Replace>
         <Replace Tag="TIMER_SEPHI_NAME" Language="de_DE">
@@ -286,33 +247,24 @@
         <Replace Tag="FC_FREE_DESC" Language="de_DE">
             <Text>In FFA würden irrelevante Spieler in freie Städte umgewandelt</Text>
         </Replace>
-        <Replace Tag="FC_RAZE_NAME" Language="de_DE">
-            <Text>Städte zerstören</Text>
-        </Replace>
-        <Replace Tag="FC_RAZE_DESC" Language="de_DE">
-            <Text>In FFA würden irrelevante Spieler zerstört</Text>
-        </Replace>
-		
-		<Replace Tag="LOC_MPH_PLAYER_OPTIONS" Language="de_DE">
+
+        <Replace Tag="LOC_MPH_PLAYER_OPTIONS" Language="de_DE">
             <Text>MPH: SPIELER</Text>
         </Replace>
         <Replace Tag="LOC_MPH_ADMIN_OPTIONS" Language="de_DE">
             <Text>MPH: ADMIN</Text>
         </Replace>
-        <Replace Tag="LOC_MPH_OTHER_OPTIONS" Language="de_DE">
-            <Text>MULTIPLAYER HELPER: ANDERE BEFEHLE</Text>
-        </Replace>
         <Replace Tag="LOC_MPH_VOTEPANEL_TITLE_REMAP_TEXT" Language="de_DE">
             <Text>Neukartierungsvote</Text>
         </Replace>
-		
+
         <Replace Tag="LOC_MPH_VOTEPANEL_TITLE_REMAP_ADMIN_TEXT" Language="de_DE">
             <Text>Admin-Neukartierung</Text>
         </Replace>
-        <Replace Tag="LOC_MPH_VOTEPANEL_GAME_RANDOM_SEED" Language="de_DE">
+		 <Replace Tag="LOC_MPH_VOTEPANEL_GAME_RANDOM_SEED" Language="de_DE">
             <Text>Spiel-Seed</Text>
         </Replace>
-        <Replace Tag="LOC_MPH_VOTEPANEL_MAP_RANDOM_SEED" Language="de_DE">
+		<Replace Tag="LOC_MPH_VOTEPANEL_MAP_RANDOM_SEED" Language="de_DE">
             <Text>Karten-Seed</Text>
         </Replace>
         <Replace Tag="LOC_MPH_VOTEPANEL_LABEL_REMAP_TEXT" Language="de_DE">
@@ -384,10 +336,12 @@
         <Replace Tag="LOC_VICTORY_CONCEDE_TEXT" Language="de_DE">
             <Text>Alle Ihre Feinde haben kapituliert!</Text>
         </Replace>
-		
-		
-		<Replace Tag="LOC_DEFEAT_CONCEDE_NAME" Language="de_DE">
+
+        <Replace Tag="LOC_DEFEAT_CONCEDE_NAME" Language="de_DE">
             <Text>KAPITULATION</Text>
+        </Replace>
+        <Replace Tag="LOC_DEFEAT_CONCEDE_TEXT" Language="de_DE">
+            <Text>Sie haben kapituliert.</Text>
         </Replace>
         <Replace Tag="LOC_MPH_DRAFT_RANDOM_TOOLTIP" Language="de_DE">
             <Text>FFA: Der erste Spieler zum Bannen/Auswählen wird zufällig ausgewählt, dann geht es in Slot-Reihenfolge weiter. [NEWLINE] Team-Spieler: Der erste Spieler zum Bannen/Auswählen wird zufällig ausgewählt, dann alternieren die Teams.</Text>
@@ -401,7 +355,7 @@
         <Replace Tag="LOC_MPH_DRAFT_CWC_NEW_TOOLTIP" Language="de_DE">
             <Text>[NEWLINE]Offizielles CWC-Format: Bannen von Anführern beginnt beim ersten Slot und wechselt in einem A/B/A/B/A/B-Format, dann B/A/B/A [NEWLINE] Auswählen erfolgt gemäß der Slot-Reihenfolge (Sollte A/B/B/A dann B/A/A/B für 4v4 sein).</Text>
         </Replace>
-		
+
         <Replace Tag="LOC_MPH_SWAP_DISABLED_TITLE" Language="de_DE">
             <Text>SPIELER-EINSTELLUNGEN KÖNNEN NICHT GEÄNDERT WERDEN</Text>
         </Replace>
@@ -417,8 +371,11 @@
         <Replace Tag="LOC_MPH_SLOT_HOST_DISABLED_TEXT" Language="de_DE">
             <Text>Sie können die Slot-Reihenfolge in dieser Phase des Drafts nicht ändern. [NEWLINE] Ändern Sie den Draft-Typ oder setzen Sie den Draft zurück, um die Kontrolle über die Spieler-Einstellungen zurückzugewinnen.</Text>
         </Replace>
+        <Replace Tag="LOC_MPH_ADD_DISABLED_TITLE" Language="de_DE">
+            <Text>SPIELER KANN NICHT HINZUGEFÜGT WERDEN</Text>
+        </Replace>
         <Replace Tag="LOC_MPH_ADD_DISABLED_TEXT" Language="de_DE">
-            <Text>Sie können die Slot-Reihenfolge in dieser Phase des Drafts nicht ändern.</Text>
+            <Text>Sie können in dieser Phase des Drafts keinen neuen Spieler hinzufügen.</Text>
         </Replace>
         <Replace Tag="LOC_MPH_ADD_HOST_DISABLED_TEXT" Language="de_DE">
             <Text>Sie können in dieser Phase des Drafts keinen neuen Spieler hinzufügen. [NEWLINE] Ändern Sie den Draft-Typ oder setzen Sie den Draft zurück, um einen neuen Spieler hinzufügen zu können.</Text>
@@ -492,6 +449,9 @@
         <Replace Tag="LOC_MPH_READY_WAITING_MAP_VOTE_TEXT" Language="de_DE">
             <Text>[COLOR_Civ6Red] VALIDIEREN SIE IHRE KARTEN-EINSTELLUNGEN [ENDCOLOR]</Text>
         </Replace>
+        <Replace Tag="LOC_MPH_READY_WAITING_BAN_VOTE_TEXT" Language="de_DE">
+            <Text>[COLOR_Civ6Red] STIMMEN SIE FÜR IHREN ANFÜHRER-BANN AB [ENDCOLOR]</Text>
+        </Replace>
         <Replace Tag="LOC_MPH_READY_WAITING_MAP_BAN_TEXT" Language="de_DE">
             <Text>[COLOR_Civ6Red] VALIDIEREN SIE IHREN KARTEN-BANN [ENDCOLOR]</Text>
         </Replace>
@@ -513,7 +473,7 @@
         <Replace Tag="LOC_MPH_READY_THANKS_TEXT" Language="de_DE">
             <Text>DANKE</Text>
         </Replace>
-		<Replace Tag="LOC_MPH_TOURNAMENT_PHASE_7_TEAM_TEXT" Language="de_DE">
+        <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_7_TEAM_TEXT" Language="de_DE">
             <Text>Teamer: Karten-Bann-Phase</Text>
         </Replace>
         <Replace Tag="LOC_MPH_TOURNAMENT_PHASE_7_FFA_TEXT" Language="de_DE">
@@ -537,12 +497,6 @@
         <Replace Tag="LOC_SETUP_ERROR_NOT_DRAFTED_LEADERS" Language="de_DE">
             <Text>Ausgeschlossener Anführer</Text>
         </Replace>
-        <Replace Tag="CPL_ANONYMOUS_NAME" Language="de_DE">
-            <Text>Anonymer Spiel</Text>
-        </Replace>
-        <Replace Tag="CPL_ANONYMOUS_DESC" Language="de_DE">
-            <Text>[WIP]Die Namen der Spieler werden nicht angezeigt, um ein anonymes Erlebnis in der Lobby und während des Spiels zu bieten.</Text>
-        </Replace>
         <Replace Tag="CPL_NO_PM_NAME" Language="de_DE">
             <Text>Keine privaten Nachrichten</Text>
         </Replace>
@@ -555,36 +509,11 @@
         <Replace Tag="CPL_RESTRICTED_DRAFT_DESC" Language="de_DE">
             <Text>[WIP]Würden nur 5 Anführer für jeden Spieler zur Auswahl angeboten, anstatt der vollständigen Anführer-Auswahl.</Text>
         </Replace>
-        <Replace Tag="LOC_MPH_OBSERVER_SPECTATOR_TOOLTIP" Language="de_DE">
-            <Text>Erlaubt es Ihnen, als Beobachter teilzunehmen statt als tatsächlicher Spieler. Ideal für das Casting.</Text>
-        </Replace>
-        <Replace Tag="LOC_MPH_OBSERVER_PLAYER_TOOLTIP" Language="de_DE">
-            <Text>Bestätigt, dass Sie als Spieler und nicht als Beobachter am Spiel teilnehmen.</Text>
-        </Replace>
-        <Replace Tag="LOC_MPH_OBSERVER_SPECTATOR_NAME" Language="de_DE">
-            <Text>Als Beobachter spielen</Text>
-        </Replace>
-        <Replace Tag="LOC_MPH_OBSERVER_PLAYER_NAME" Language="de_DE">
-            <Text>Als normaler Spieler spielen</Text>
-        </Replace>
-        <Replace Tag="LOC_SETUP_ERROR_NO_SPECTATOR_LEADERS" Language="de_DE">
-            <Text>Kein Beobachter</Text>
-        </Replace>
         <Replace Tag="LOC_MPH_RESET_BUTTON_TOOLTIP" Language="de_DE">
             <Text>Setzen Sie Ihren Draft zurück, um neu zu draften, falls jemand einen Fehler gemacht hat.</Text>
         </Replace>
         <Replace Tag="LOC_MPH_START_BUTTON_TOOLTIP" Language="de_DE">
             <Text>(Nur Host) [NEWLINE] Startet sofort das Spiel.</Text>
-        </Replace>
-        <Replace Tag="LOC_MPH_LAUNCH_BUTTON_TOOLTIP" Language="de_DE">
-            <Text>(Nur Host) [NEWLINE] Starten: Beginnt den Draft [NEWLINE] Überspringen: Gehe zum nächsten Schritt [NEWLINE] Entsperren: Ermöglicht den Spielern, die Slots vor Beginn des Spiels zu tauschen</Text>
-        </Replace>
-
-        <Replace Tag="LOC_GAMESPEED_FAST_NAME" Language="de_DE">
-            <Text>Online+</Text>
-        </Replace>
-        <Replace Tag="LOC_GAMESPEED_FAST_HELP" Language="de_DE">
-            <Text>Etwas schneller als die Online-Geschwindigkeit, um im Standardzeitalter / Standardressourcen zu spielen</Text>
         </Replace>
         <Replace Tag="LOC_GAME_MENU_RETIME_TITLE" Language="de_DE">
             <Text>STERBE-TIMER ÄNDERN</Text>
@@ -614,12 +543,12 @@
             <Text>Den verbleibenden Zeitraum vor der Eliminierung eines Spielers anpassen.</Text>
         </Replace>
         <Replace Tag="LOC_MPH_DRAFT_TIMER_TOOLTIP" Language="de_DE">
-            <Text>Jede Phase des Turnier-Drafts hat einen Timer: [NEWLINE] 30 Sekunden für das Bannen einer Karte [NEWLINE] 60 Sekunden für das Bannen eines Anführers [NEWLINE] 90 Sekunden für das Auswählen eines Anführers [NEWLINE] Wenn der Timer abläuft, verliert der Spieler seinen Bann oder wird gezwungen, als zufälliger Anführer zu spielen.</Text>
+            <Text>Jede Phase des Turnier-Drafts hat einen Timer: [NEWLINE] 30 Sekunden für das Bannen einer Karte [NEWLINE] 60 Sekunden für das Bannen eines Anführers [NEWLINE] 60 Sekunden für das Auswählen eines Anführers [NEWLINE] Wenn der Timer abläuft, verliert der Spieler seinen Bann oder wird gezwungen, als zufälliger Anführer zu spielen.</Text>
         </Replace>
         <Replace Tag="LOC_GAME_MENU_RENAME_TITLE" Language="de_DE">
             <Text>NAME BEARBEITEN</Text>
         </Replace>
-		<Replace Tag="LOC_GAME_MENU_RENAME_LABEL" Language="de_DE">
+        <Replace Tag="LOC_GAME_MENU_RENAME_LABEL" Language="de_DE">
             <Text>Bitte geben Sie Ihren neuen Namen ein, der auch im Spiel verwendet wird.</Text>
         </Replace>
         <Replace Tag="LOC_GAME_MENU_RENAME_BOX" Language="de_DE">
@@ -700,9 +629,8 @@
         <Replace Tag="LOC_GAME_MENU_UI_REFRESH_BUTTON" Language="de_DE">
             <Text>Zurücksetzen</Text>
         </Replace>
-		
-		
-		<!-- Tournament Settings -->
+
+        <!--  Tournament Settings -->
         <Replace Tag="LOC_MPH_TOURNAMENT_PARAMETERS_OPTIONS" Language="de_DE">
             <Text>Tournament- und Draft-Optionen</Text>
         </Replace>
@@ -750,9 +678,8 @@
         <Replace Tag="DRAFT_CWCT_DESC" Language="de_DE">
             <Text>Esport-konformes Drafting in Phasen: 1) 6 Banns 2) 4 Picks 3) 4 Banns 4) Verbleibende Picks</Text>
         </Replace>
-		
-		
-		<!-- Trading Settings -->
+
+        <!--  Trading Settings -->
         <Replace Tag="LOC_MPH_TRADING_PARAMETERS_OPTIONS" Language="de_DE">
             <Text>Handels- und Diplomatie-Optionen</Text>
         </Replace>
@@ -818,7 +745,7 @@
         <Replace Tag="LOC_MPH_NO_TRADING_GREATWORKS_DESC" Language="de_DE">
             <Text>Abwählen, um die Möglichkeit zu entfernen, mit Großen Werken zu handeln.</Text>
         </Replace>
-		
+
         <Replace Tag="LOC_MPH_DIPLOMATIC_DEAL_NAME" Language="de_DE">
             <Text>Keine diplomatischen Vereinbarungen</Text>
         </Replace>
@@ -858,6 +785,9 @@
         <Replace Tag="MPH_PRESET_NAME" Language="de_DE">
             <Text>Preset</Text>
         </Replace>
+        <Replace Tag="MPH_PRESET_DESC" Language="de_DE">
+            <Text>Wendet die Standard-Spieleinstellungen eines Turniers an.</Text>
+        </Replace>
         <Replace Tag="MPH_PRESET_NONE_NAME" Language="de_DE">
             <Text>Keines</Text>
         </Replace>
@@ -879,7 +809,7 @@
         <Replace Tag="MPH_PRESET_1v1RR_NAME" Language="de_DE">
             <Text>1v1 Royal Rumble</Text>
         </Replace>
-        <Replace Tag="MPH_PRESET_NONE_DESC" Language="de_DE">
+		<Replace Tag="MPH_PRESET_NONE_DESC" Language="de_DE">
             <Text>Standard-Einstellungen</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_CWC_DESC" Language="de_DE">
@@ -900,11 +830,11 @@
         <Replace Tag="MPH_OFFICIAL_GAME_DESC" Language="de_DE">
             <Text>Wenn das Spiel Teil eines offiziellen Turniers ist, können andere Mods zusätzliche Funktionen laden/entladen.</Text>
         </Replace>
-        <Replace Tag="TIMER_2VI2_NAME" Language="de_DE">
+		<Replace Tag="TIMER_2VI2_NAME" Language="de_DE">
             <Text>2VI2 HOT</Text>
         </Replace>
-		<Replace Tag="TIMER_2VI2_DESC" Language="de_DE">
-            <Text>Sehr schneller Timer, der bei 15 Sekunden beginnt und bis zur 40. Runde in Sprüngen auf 60 Sekunden ansteigt. Skaliert danach linear.</Text>
+        <Replace Tag="TIMER_2VI2_DESC" Language="de_DE">
+            <Text>Sehr schneller Timer, der bei 20 Sekunden beginnt und bis zur 40. Runde in Sprüngen auf 60 Sekunden ansteigt. Skaliert danach linear.</Text>
         </Replace>
         <Replace Tag="MPH_PRESET_PPL_DUEL_NAME" Language="de_DE">
             <Text>PPL fällig</Text>

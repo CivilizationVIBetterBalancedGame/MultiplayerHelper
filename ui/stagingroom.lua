@@ -1203,7 +1203,7 @@ function PhaseVisibility()
 				Controls.PhaseLabel_hint:SetText(Locale.Lookup("LOC_MPH_TOURNAMENT_PHASE_7_FFA_RAND_HINT_TEXT"))
 				Controls.PhaseLabel_hint:SetHide(false)
 				elseif g_slot_draft == 1 or g_slot_draft == 2 then
-				Controls.PhaseLabel_hint:SetText(Locale.Lookup("LOC_MPH_TOURNAMENT_PHASE_7_FFA_RAND_HINT_TEXT"))
+				Controls.PhaseLabel_hint:SetText(Locale.Lookup("LOC_MPH_TOURNAMENT_PHASE_7_FFA_SLOT_HINT_TEXT"))
 				Controls.PhaseLabel_hint:SetHide(false)
 			end
 		end
@@ -4776,7 +4776,11 @@ function OnAddPlayer(playerID)
 	if g_disabled_slot_settings == true then
 		m_kPopupDialog:Close();	
 		m_kPopupDialog:AddTitle(  Locale.ToUpper(Locale.Lookup("LOC_MPH_ADD_DISABLED_TITLE")));
-		m_kPopupDialog:AddText(	  Locale.Lookup("LOC_MPH_ADD_DISABLED_TEXT"));
+		if Network.GetLocalPlayerID() == Network.GetGameHostPlayerID() then
+			m_kPopupDialog:AddText(	  Locale.Lookup("LOC_MPH_ADD_HOST_DISABLED_TEXT"));
+		else
+			m_kPopupDialog:AddText(	  Locale.Lookup("LOC_MPH_ADD_DISABLED_TEXT"));
+		end
 		m_kPopupDialog:AddButton( "OK", function() m_kPopupDialog:Close(); end, nil, nil );
 		m_kPopupDialog:Open();
 		return
