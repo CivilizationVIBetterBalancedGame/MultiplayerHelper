@@ -244,7 +244,7 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Game" TargetId="CPL_SMARTTIMER" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Game" TargetId="NO_TRADING_CITIES" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Map" TargetId="resources" TargetValue="2"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Map" TargetId="BBSStratRes" TargetValue="3"/>
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Map" TargetId="BBSStratRes" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Game" TargetId="NO_TRADING_GOLD" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Game" TargetId="NO_TRADING_STRATEGICS" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="1" TargetGroup="Game" TargetId="ALLIANCE_MILITARY" TargetValue="1"/>
@@ -305,10 +305,9 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="CPL_SMARTTIMER" TargetValue="0" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="NO_TRADING_CITIES" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Map" TargetId="resources" TargetValue="2"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Map" TargetId="BBSStratRes" TargetValue="3"/>
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Map" TargetId="BBSStratRes" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="NO_TRADING_GOLD" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="NO_TRADING_STRATEGICS" TargetValue="0"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="NO_TRADING_CITIES" TargetValue="0" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="ALLIANCE_MILITARY" TargetValue="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="DRAFT_MAP" TargetValue="0" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="3" TargetGroup="Game" TargetId="GAME_REALISM" TargetValue="0"/>
@@ -346,10 +345,9 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="4" TargetGroup="Game" TargetId="CPL_SMARTTIMER" TargetValue="0" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="4" TargetGroup="Game" TargetId="NO_TRADING_CITIES" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="4" TargetGroup="Map" TargetId="resources" TargetValue="2"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="4" TargetGroup="Map" TargetId="BBSStratRes" TargetValue="3"/>
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="4" TargetGroup="Map" TargetId="BBSStratRes" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="4" TargetGroup="Game" TargetId="NO_TRADING_GOLD" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="4" TargetGroup="Game" TargetId="NO_TRADING_STRATEGICS" TargetValue="0"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="4" TargetGroup="Game" TargetId="NO_TRADING_CITIES" TargetValue="0" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="4" TargetGroup="Game" TargetId="ALLIANCE_MILITARY" TargetValue="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="4" TargetGroup="Game" TargetId="DRAFT_MAP" TargetValue="1" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="4" TargetGroup="Game" TargetId="GAME_REALISM" TargetValue="0"/>
@@ -383,7 +381,7 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="5" TargetGroup="Game" TargetId="GAME_MAX_TURNS" TargetValue="150"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="5" TargetGroup="Game" TargetId="CPL_SMARTTIMER" TargetValue="7"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="5" TargetGroup="Map" TargetId="world_age" TargetValue="1" Hash="0"/>
-		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="5" TargetGroup="Map" TargetId="BBSStratRes" TargetValue="3"/>
+		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="5" TargetGroup="Map" TargetId="BBSStratRes" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="5" TargetGroup="Map" TargetId="resources" TargetValue="2"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="5" TargetGroup="Map" TargetId="MAP_SIZE" TargetValue="MAPSIZE_DUEL" Hash="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="5" TargetGroup="Game" TargetId="GAME_NO_BARBARIANS" TargetValue="1" Hash="0"/>

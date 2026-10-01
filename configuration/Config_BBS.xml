@@ -20,4 +20,5 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Map" TargetId="BBSRidge" TargetValue="0" Hash="0" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Map" TargetId="BBSNatural" TargetValue="2" Hash="0" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Map" TargetId="BBM_Team_Spawn" TargetValue="1" Hash="0" />
+	</ConfigurationUpdates>
 </GameInfo>
