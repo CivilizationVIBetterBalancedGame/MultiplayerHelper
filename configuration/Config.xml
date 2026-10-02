@@ -469,7 +469,6 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="ALLIANCE_CULTURAL" TargetValue="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="GAME_TURN_LIMIT" TargetValue="TURNLIMIT_CUSTOM" Hash="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="GAME_MAX_TURNS" TargetValue="137"/>
-		<Row SourceGroup="Game" SourceId="CPL_SMARTTIMER" SourceValue="8" TargetGroup="Game" TargetId="CPL_SYNCTURN" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="CPL_BAN_FORMAT" TargetValue="0" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="8" TargetGroup="Game" TargetId="CPL_NO_PINS" TargetValue="0"/>
 		
@@ -507,7 +506,6 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="ALLIANCE_CULTURAL" TargetValue="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="GAME_TURN_LIMIT" TargetValue="TURNLIMIT_CUSTOM" Hash="1"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="GAME_MAX_TURNS" TargetValue="137"/>
-		<Row SourceGroup="Game" SourceId="CPL_SMARTTIMER" SourceValue="9" TargetGroup="Game" TargetId="CPL_SYNCTURN" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="CPL_BAN_FORMAT" TargetValue="0" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="9" TargetGroup="Game" TargetId="CPL_NO_PINS" TargetValue="0"/>
 		
@@ -541,7 +539,6 @@
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Game" TargetId="ALLIANCE_ECONOMIC" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Game" TargetId="ALLIANCE_RESEARCH" TargetValue="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Game" TargetId="ALLIANCE_CULTURAL" TargetValue="0"/>
-		<Row SourceGroup="Game" SourceId="CPL_SMARTTIMER" SourceValue="10" TargetGroup="Game" TargetId="CPL_SYNCTURN" TargetValue="1" />
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Game" TargetId="CPL_BAN_FORMAT" TargetValue="0" Hash="0"/>
 		<Row SourceGroup="Game" SourceId="MPH_PRESET" SourceValue="10" TargetGroup="Game" TargetId="CPL_NO_PINS" TargetValue="1"/>
 	</ConfigurationUpdates>
