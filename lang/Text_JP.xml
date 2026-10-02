@@ -97,24 +97,6 @@
         <Replace Tag="CPL_SMARTTIMER_DESC" Language="ja_JP">
             <Text>ベースゲームのタイマーを動的に上書きします</Text>
         </Replace>
-        <Replace Tag="CPL_TRADING_NONE_NAME" Language="ja_JP">
-            <Text>禁止</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_NONE_DESC" Language="ja_JP">
-            <Text>この種類の取引はゲーム内で行えません。</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_NAME" Language="ja_JP">
-            <Text>許可</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_DESC" Language="ja_JP">
-            <Text>この種類の取引は許可されます。</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_NAME" Language="ja_JP">
-            <Text>同盟国間のみ</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_DESC" Language="ja_JP">
-            <Text>この種類の取引は、ゲーム内で同盟国間でのみ許可されます。</Text>
-        </Replace>
 
         <Replace Tag="LOC_SETUP_ERROR_NO_BANNED_LEADERS" Language="ja_JP">
             <Text>禁止されている指導者</Text>

@@ -104,24 +104,6 @@
         <Replace Tag="CPL_SMARTTIMER_DESC" Language="pt_BR">
             <Text>Substitui o cronômetro do jogo por um mais dinâmico</Text>
         </Replace>
-        <Replace Tag="CPL_TRADING_NONE_NAME" Language="pt_BR">
-            <Text>Proibido</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_NONE_DESC" Language="pt_BR">
-            <Text>Esse tipo de troca não será possível no jogo.</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_NAME" Language="pt_BR">
-            <Text>Permitido</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_DESC" Language="pt_BR">
-            <Text>Esse tipo de troca será possível no jogo</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_NAME" Language="pt_BR">
-            <Text>Apenas Aliados</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_DESC" Language="pt_BR">
-            <Text>Esse tipo de troca será possível apenas no jogo, com aliados.</Text>
-        </Replace>
 
         <Replace Tag="LOC_SETUP_ERROR_NO_BANNED_LEADERS" Language="pt_BR">
             <Text>Líderes Banidos</Text>

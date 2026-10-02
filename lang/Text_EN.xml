@@ -97,24 +97,6 @@
         <Replace Tag="CPL_SMARTTIMER_DESC" Language="en_US">
             <Text>Override the base game timer dynamically</Text>
         </Replace>
-        <Replace Tag="CPL_TRADING_NONE_NAME" Language="en_US">
-            <Text>Banned</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_NONE_DESC" Language="en_US">
-            <Text>This type of trading would not be possible in-game.</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_NAME" Language="en_US">
-            <Text>Allowed</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_DESC" Language="en_US">
-            <Text>This type of trading would allowed.</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_NAME" Language="en_US">
-            <Text>Allies Only</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_DESC" Language="en_US">
-            <Text>This type of trading would be solely permitted in-game between allies.</Text>
-        </Replace>
 
         <Replace Tag="LOC_SETUP_ERROR_NO_BANNED_LEADERS" Language="en_US">
             <Text>Banned Leader</Text>

@@ -126,10 +126,6 @@
 		<Row Domain="DraftSlotDomain" Value="2" Name="DRAFT_4V4T_NAME" Description="DRAFT_4V4T_DESC" SortIndex="30"/>
 		<Row Domain="DraftSlotDomain" Value="3" Name="DRAFT_CWCT_NAME" Description="DRAFT_CWCT_DESC" SortIndex="40"/>
 
-		<Row Domain="TradingLimits" Value="0" Name="CPL_TRADING_NONE_NAME" Description="CPL_TRADING_NONE_DESC" SortIndex="10"/>
-		<Row Domain="TradingLimits" Value="1" Name="CPL_TRADING_ALLOWED_NAME" Description="CPL_TRADING_ALLOWED_DESC" SortIndex="30"/>
-		<Row Domain="TradingLimits" Value="2" Name="CPL_TRADING_ALLIED_NAME" Description="CPL_TRADING_ALLIED_DESC" SortIndex="20"/>
-
 		<Row Domain="BanLimits" Value="0" Name="BAN_FORMAT_NOBAN_NAME" Description="BAN_FORMAT_NOBAN_DESC" SortIndex="10"/>
 		<Row Domain="BanLimits" Value="3" Name="BAN_FORMAT_TOURNAMENT_NAME" Description="BAN_FORMAT_TOURNAMENT_DESC" SortIndex="30"/>
 		<Row Domain="BanLimits" Value="4" Name="BAN_FORMAT_VOTEDRAFT_NAME" Description="BAN_FORMAT_VOTEDRAFT_DESC" SortIndex="20"/>

@@ -97,24 +97,6 @@
         <Replace Tag="CPL_SMARTTIMER_DESC" Language="ru_RU">
             <Text>Заменяет стандартный таймер на более динамичный</Text>
         </Replace>
-        <Replace Tag="CPL_TRADING_NONE_NAME" Language="ru_RU">
-            <Text>Запрещено</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_NONE_DESC" Language="ru_RU">
-            <Text>Данный тип торговли запрещен в игре</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_NAME" Language="ru_RU">
-            <Text>Разрешено</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_DESC" Language="ru_RU">
-            <Text>Данный тип торговли разрешён</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_NAME" Language="ru_RU">
-            <Text>Только между союзниками</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_DESC" Language="ru_RU">
-            <Text>Этот тип торговли разрешен только между союзниками</Text>
-        </Replace>
 
         <Replace Tag="LOC_SETUP_ERROR_NO_BANNED_LEADERS" Language="ru_RU">
             <Text>Забаненный лидер</Text>

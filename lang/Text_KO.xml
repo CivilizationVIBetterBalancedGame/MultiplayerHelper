@@ -97,24 +97,6 @@
         <Replace Tag="CPL_SMARTTIMER_DESC" Language="ko_KR">
             <Text>베이스 게임 타이머를 동적으로 재정의합니다.</Text>
         </Replace>
-        <Replace Tag="CPL_TRADING_NONE_NAME" Language="ko_KR">
-            <Text>금지됨</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_NONE_DESC" Language="ko_KR">
-            <Text>이 유형의 거래는 게임 내에서 불가능합니다.</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_NAME" Language="ko_KR">
-            <Text>허용됨</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_DESC" Language="ko_KR">
-            <Text>이 유형의 거래는 허용됩니다.</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_NAME" Language="ko_KR">
-            <Text>동맹자만 가능</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_DESC" Language="ko_KR">
-            <Text>이 유형의 거래는 게임 내에서 동맹자 간에만 허용됩니다.</Text>
-        </Replace>
 
         <Replace Tag="LOC_SETUP_ERROR_NO_BANNED_LEADERS" Language="ko_KR">
             <Text>금지된 지도자</Text>

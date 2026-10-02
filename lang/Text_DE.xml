@@ -97,24 +97,6 @@
         <Replace Tag="CPL_SMARTTIMER_DESC" Language="de_DE">
             <Text>Überschreiben Sie den Basis-Spiel-Timer dynamisch</Text>
         </Replace>
-        <Replace Tag="CPL_TRADING_NONE_NAME" Language="de_DE">
-            <Text>Verboten</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_NONE_DESC" Language="de_DE">
-            <Text>Diese Handelsart wäre im Spiel nicht möglich.</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_NAME" Language="de_DE">
-            <Text>Erlaubt</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_DESC" Language="de_DE">
-            <Text>Diese Handelsart wäre erlaubt.</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_NAME" Language="de_DE">
-            <Text>Nur Verbündete</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_DESC" Language="de_DE">
-            <Text>Diese Handelsart wäre ausschließlich zwischen Verbündeten im Spiel erlaubt.</Text>
-        </Replace>
 
         <Replace Tag="LOC_SETUP_ERROR_NO_BANNED_LEADERS" Language="de_DE">
             <Text>Verbotener Anführer</Text>

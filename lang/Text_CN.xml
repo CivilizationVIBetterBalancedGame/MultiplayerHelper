@@ -97,24 +97,6 @@
         <Replace Tag="CPL_SMARTTIMER_DESC" Language="zh_Hans_CN">
             <Text>覆盖原版游戏，改为动态时间设置。</Text>
         </Replace>
-        <Replace Tag="CPL_TRADING_NONE_NAME" Language="zh_Hans_CN">
-            <Text>禁止</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_NONE_DESC" Language="zh_Hans_CN">
-            <Text>禁止这种交易在游戏内进行。</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_NAME" Language="zh_Hans_CN">
-            <Text>允许</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_DESC" Language="zh_Hans_CN">
-            <Text>允许这种交易在游戏内进行。</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_NAME" Language="zh_Hans_CN">
-            <Text>仅盟友</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_DESC" Language="zh_Hans_CN">
-            <Text>仅允许这种交易在盟友间进行。</Text>
-        </Replace>
 
         <Replace Tag="LOC_SETUP_ERROR_NO_BANNED_LEADERS" Language="zh_Hans_CN">
             <Text>禁用领袖</Text>

@@ -104,24 +104,6 @@
         <Replace Tag="CPL_SMARTTIMER_DESC" Language="fr_FR">
             <Text>Remplace le chronomètre du jeu par un plus dynamique</Text>
         </Replace>
-        <Replace Tag="CPL_TRADING_NONE_NAME" Language="fr_FR">
-            <Text>Banni</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_NONE_DESC" Language="fr_FR">
-            <Text>Ce type d'échange ne sera pas possible en jeu.</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_NAME" Language="fr_FR">
-            <Text>Autorisé</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLOWED_DESC" Language="fr_FR">
-            <Text>Ce type d'échange sera possible en jeu</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_NAME" Language="fr_FR">
-            <Text>Alliés uniquement</Text>
-        </Replace>
-        <Replace Tag="CPL_TRADING_ALLIED_DESC" Language="fr_FR">
-            <Text>Ce type de d'échange sera uniquement possible en jeu, avec des alliés.</Text>
-        </Replace>
 
         <Replace Tag="LOC_SETUP_ERROR_NO_BANNED_LEADERS" Language="fr_FR">
             <Text>Dirigeants bannis</Text>
